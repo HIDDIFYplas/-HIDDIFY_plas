@@ -6,4 +6,3 @@ warp://188.114.97.228:864/?ifpm=m5#@HIDDIFY_plas5
 warp://188.114.97.224:928/?ifpm=m5#@HIDDIFY_plas6
 warp://188.114.97.210:928/?ifpm=m5#@HIDDIFY_plas7
 warp://188.114.98.31:4233/?ifpm=m5#@HIDDIFY_plas8
-warp://188.114.99.6:864/?ifpm=m5#@HIDDIFY_plas9
