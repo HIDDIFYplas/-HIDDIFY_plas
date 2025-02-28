@@ -5,3 +5,7 @@ warp://162.159.195.205:8854/?ifpm=m5#@HIDDIFY_plas کانال تلگرام4
 warp://188.114.97.17:3476/?ifpm=m5#@HIDDIFY_plas کانال تلگرام5
 warp://188.114.96.122:1018/?ifpm=5m#@HIDDIFY_plas کانال تلگرام6
 warp://188.114.96.148:2371/?ifpm=m5#@HIDDIFY_plas کانال تلگرام7
+warp://188.114.99.183:894/?ifpm=m5#@HIDDIFY_plas کانال تلگرام8
+warp://188.114.98.81:854/?ifpm=m5#@HIDDIFY_plas کانال تلگرام9
+warp://188.114.98.188:943/?ifpm=m5#@HIDDIFY_plas کانال تلگرام10
+warp://188.114.97.173:500/?ifpm=m5#@HIDDIFY_plas کانال تلگرام11
