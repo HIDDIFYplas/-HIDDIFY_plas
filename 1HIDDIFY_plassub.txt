@@ -1,1 +1,8 @@
-warp://188.114.98.82:5279/?ifp=5-10#🇮🇱@HIDDIFY_plas  &&detour=warp://188.114.99.32:4233/?ifp=5-10#🇩🇪@HIDDIFY_plas  &&detour=warp://188.114.99.60:5279/?ifp=5-10#🇨🇿@HIDDIFY_plas  &&detour=warp://188.114.99.155:8319/?ifp=5-10#🇨🇻@HIDDIFY_plas  &&detour=warp://188.114.99.207:864/?ifp=5-10#🇭🇺@HIDDIFY_plas  &&detour=warp://188.114.99.19:8319/?ifp=5-10#🇫🇮@HIDDIFY_plas   &&detour=warp://188.114.99.209:8319/?ifp=5-10#🇫🇴@HIDDIFY_plas   &&detour=warp://188.114.99.155:8319/?ifp=5-10#🇳🇬@HIDDIFY_plas
+warp://188.114.98.82:5279/?ifp=5-10#🇮🇱@HIDDIFY_plas
+warp://188.114.99.32:4233/?ifp=5-10#🇩🇪@HIDDIFY_plas
+warp://188.114.99.60:5279/?ifp=5-10#🇨🇿@HIDDIFY_plas
+warp://188.114.99.155:8319/?ifp=5-10#🇨🇻@HIDDIFY_plas
+warp://188.114.99.207:864/?ifp=5-10#🇭🇺@HIDDIFY_plas
+warp://188.114.99.19:8319/?ifp=5-10#🇫🇮@HIDDIFY_plas
+warp://188.114.99.209:8319/?ifp=5-10#🇫🇴@HIDDIFY_plas
+warp://188.114.99.155:8319/?ifp=5-10#🇳🇬@HIDDIFY_plas
