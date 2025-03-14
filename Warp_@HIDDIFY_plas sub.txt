@@ -1,0 +1,36 @@
+{
+ "outbounds": [
+  {
+   "type": "wireguard",
+   "tag": "@HIDDIFY_plas",
+   "local_address": [
+    "172.16.0.2/32",
+    "2606:4700:110:870f:8af0:54af:492a:b6d7/128"
+   ],
+   "private_key": "UDfcRyZVSnCVkrA4pkj6tyy5fNZl48Pmuxuj8v7SdEM=",
+   "server": "188.114.97.3",
+   "server_port": 8886,
+   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+   "reserved": "z0Tg",
+   "mtu": 1280
+  }
+ ]
+}
+{
+  "outbounds":   [
+    {
+      "type": "wireguard",
+      "tag": "@HIDDIFY_plas",
+      "local_address":       [
+        "172.16.0.2/32",
+        "2606:4700:110:826d:9012:c616:955d:cc1f/128"
+      ],
+      "private_key": "uB+BjyMOTeMhuiKf9UDpg9xLT/kq1gZ3WyFPGnmCll8=",
+      "server": "162.159.192.50",
+      "server_port": 7156,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "FaJi",
+      "mtu": 1280
+    }
+  ]
+}
