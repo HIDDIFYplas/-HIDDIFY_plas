@@ -15,10 +15,7 @@
    "mtu": 1280
   }
  ]
-}
-
-
-{
+}&&detour={
   "outbounds":   [
     {
       "type": "wireguard",
