@@ -1,0 +1,9 @@
+//profile-title: base64:8J+UpSBXQVJQIPCflKU=
+//profile-update-interval: 24
+//subscription-userinfo: upload=5; download=5; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/hiddifyvip
+//profile-web-page-url: https://hiddify.com
+
+warp://p1@162.159.192.12:4233/?ifpm=m5#🇨🇿@hiddifyvip
+&&detour=warp://p2@188.114.98.3:1180/?ifpm=m5#🇷🇺@hiddifyvip
+&&detour=warp://p3@162.159.195.183:3581/?ifpm=m5#🇩🇪@hiddifyvip
