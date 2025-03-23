@@ -1,0 +1,9 @@
+//profile-title; base64:
+//profile-update-interval: 8
+//subscription-userinfo: upload=200036; download=200003; total=60129542; expire=1744000000
+//support-url: https://t.me/HIDDIFY_plas
+//profile-web-page-url: https://github.com/NiREvil
+warp://p1@162.159.195.157:8742?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#🇷🇴@HIDDIFY_plas&&detour=warp in warp
+warp://p2@162.159.195.78:8742?ifpm=m5#🇸🇬@HIDDIFY_plas
+warp://p1@auto?ifpm=m4#🇳🇱@HIDDIFY_plas&&detour=warp://p2@auto#@HIDDIFY_plas🇺🇲
+#HIDDIFY_plas://p1@188.114.97.170:894?ifpm=m5#HIDDIFY_plas🇨🇵&&detour=warp://p2@188.114.99.218:878?ifpm=m5#HIDDIFY_plas🇦🇹
