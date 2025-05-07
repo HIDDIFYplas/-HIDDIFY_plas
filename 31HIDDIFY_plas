@@ -1,6 +1,6 @@
 profile-title; base64:
 //profile-update-interval: 8
-//subscription-userinfo: upload=5500036; download=5500003; total=220129542; expire=1749500000
+//subscription-userinfo: upload=5500036; download=5500003; total=220129542; expire=1749800000
 //support-url: https://t.me/HIDDIFY_plas
 //profile-web-page-url: https://github.com/NiREvil
 warp://p1@162.159.192.115:903?ifp=50-100&ifps=50-1000&ifpd=5-10&ifpm=m4#1 @HIDDIFY_plas&&detour=warp in warp
