@@ -1,0 +1,1784 @@
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: silent
+proxies:
+  - name: "DE->DE->RTL->@HIDDIFY_plas_0"
+    type: vmess
+    server: 57.129.24.124
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: aveiror.com
+    tls: true
+    skip-cert-verify: true
+    servername: vkvd127.mycdn.me
+
+  - name: "VN->VN->RTL->@HIDDIFY_plas_3"
+    type: ss
+    server: arxfw2b78fi2q9hzylhn.freesocks.work
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: Nk9asglDzHzjktVzTkvhaA
+
+  - name: "RU->RU->MTN->@HIDDIFY_plas_4"
+    type: vmess
+    server: 31.129.105.239
+    port: 16231
+    udp: true
+    uuid: 793e03cc-2b08-4d1b-bb0b-592567d19043
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 31.129.105.239
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_5"
+    type: ss
+    server: 185.5.38.111
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: T9VPet1fGhdb4JPmUS6SS5RNZ7NSgBvQNF4rkoQTdFhGWvmGedszfjBTgefmrQYhjhyB867P9RvyBQmtEjLUegm5CNymHC3i
+
+  - name: "DE->DE->ADL->@HIDDIFY_plas_6"
+    type: vmess
+    server: 57.129.25.20
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: 57.129.25.20
+    tls: true
+    skip-cert-verify: true
+    servername: 57.129.25.20
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_11"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: rUX6AnPwS4ymf9RKDwaW21vyxXuwVnVCrmmLsxUXjjZi7CfCJxoMbNrzwQfZSogzbDPHhkB8za1Ruhj1hGnwyTn3q1no1XRX
+
+  - name: "GB->->RTL->@HIDDIFY_plas_12"
+    type: ss
+    server: admin.c3.webramz.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: Bog0ELmMM9DSxDdQ
+
+  - name: "HK->HK->ADL->@HIDDIFY_plas_13"
+    type: ss
+    server: 203.23.128.33
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "FR->FR->RTL->@HIDDIFY_plas_16"
+    type: vmess
+    server: beyonddsz.cfd
+    port: 443
+    udp: true
+    uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: beyonddsz.cfd
+    tls: true
+    skip-cert-verify: true
+    servername: beyonddsz.cfd
+
+  - name: "GB->->MTN->@HIDDIFY_plas_18"
+    type: ss
+    server: admin.c2.webramz.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: WstuSnlu4ieA9M0L
+
+  - name: "CA->US->ADL->@HIDDIFY_plas_21"
+    type: vmess
+    server: cf.fovi.tk
+    port: 443
+    udp: true
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
+    tls: true
+    skip-cert-verify: true
+    servername: foxlux.fovi.tk
+
+  - name: "VE->NL->RTL->@HIDDIFY_plas_27"
+    type: ss
+    server: 45.158.171.132
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: fbx1Fw7mENCd7vZMvorQZ5
+
+  - name: "CA->DE->MTN->@HIDDIFY_plas_28"
+    type: vmess
+    server: kapelleng.com
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: kapelleng.com
+    tls: true
+    skip-cert-verify: true
+    servername: kapelleng.com
+
+  - name: "BR->BR->ADL->@HIDDIFY_plas_31"
+    type: vmess
+    server: 95.164.4.88
+    port: 80
+    udp: true
+    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess/
+      headers:
+        Host: pq-brazil1.09vpn.com
+
+  - name: "DE->DE->ADL->@HIDDIFY_plas_33"
+    type: vmess
+    server: 57.129.25.25
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "US->US->ADL->@HIDDIFY_plas_35"
+    type: ss
+    server: 67.220.95.102
+    port: 8000
+    udp: true
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+
+  - name: "US->US->ADL->@HIDDIFY_plas_36"
+    type: ss
+    server: 144.126.146.38
+    port: 30789
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 8d73e088-dc5a-4dfe-8927-56351ee80407
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_37"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 2A1BYU7JRBQmYUssD4ihsuS9hehEZGec5NghiRbWaMPemeAQqMWfUjfVPRZGQ4eZh5UMiVJDc7QzkdjmHHqhFWxF7UACad57
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_40"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 26nQrXS2gHzre7p9krA1vh1Eh3bhdche96gYRsA3JX338ShUzBZE4M4dWNVUe99WTJVdngpTjRL1Ppn2XArynpV296wh3U6w
+
+  - name: "GB->->ADL->@HIDDIFY_plas_45"
+    type: ss
+    server: admin.c4.webramz.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 69MUii7VDwMqh7Hz
+
+  - name: "GB->->ADL->@HIDDIFY_plas_50"
+    type: ss
+    server: admin.c3.webramz.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: AlCsBGpsejHdVCME
+
+  - name: "US->NL->MTN->@HIDDIFY_plas_54"
+    type: ss
+    server: 45.87.175.69
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+
+  - name: "CA->FR->RTL->@HIDDIFY_plas_55"
+    type: vmess
+    server: 172.67.207.26
+    port: 443
+    udp: true
+    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: glweidf.sbs
+    tls: true
+    skip-cert-verify: true
+    servername: glweidf.sbs
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_56"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: FjgGNNHQiELzxXmaHRxxtQbxDDvGXFxYdTbYe91JKZsjvKLHoY9rn9ruYE45377WjtU3m4kmXQZDXiHBJsgVfhmpawEoGvq9
+
+  - name: "ID->ID->ADL->@HIDDIFY_plas_57"
+    type: ss
+    server: 154.205.159.100
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "NL->NL->ADL->@HIDDIFY_plas_58"
+    type: ss
+    server: exchange.gameaurela.click
+    port: 52952
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj
+
+  - name: "CA->->RTL->@HIDDIFY_plas_60"
+    type: vmess
+    server: 172.67.170.103
+    port: 443
+    udp: true
+    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: glweidf.sbs
+    tls: true
+    skip-cert-verify: true
+    servername: glweidf.sbs
+
+  - name: "GB->GB->RTL->@HIDDIFY_plas_62"
+    type: ss
+    server: series-a2-me.samanehha.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: Bog0ELmMM9DSxDdQ
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_64"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: BpFieMT6SobpqRiKFefvYu7eXk99XfCeWfjpntzSh81FfMx9R7rJW6LTmzH78StTEhCd7w32ZMxbGJZS98gpn1ozr9jAbMoa
+
+  - name: "SG->SG->ADL->@HIDDIFY_plas_67"
+    type: vmess
+    server: 84.247.147.243
+    port: 51566
+    udp: true
+    uuid: ae6ae977-17f2-43fd-a336-20b3b3a9e791
+    alterId: 0
+    cipher: auto
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_68"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 5QMZKZoXMsCbhE8GHAg7Lixi7tVMmw3xH2A3biivUTgs3uo9ntbH685jA8pj98n4pJji3yw6ajzn2qzJUa4dFij1upacCtKW
+
+  - name: "CA->FR->RTL->@HIDDIFY_plas_73"
+    type: vmess
+    server: 172.67.170.103
+    port: 443
+    udp: true
+    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: glweidf.sbs
+    tls: true
+    skip-cert-verify: true
+    servername: glweidf.sbs
+
+  - name: "SE->SE->RTL->@HIDDIFY_plas_76"
+    type: trojan
+    server: 109.120.132.80
+    port: 2025
+    udp: true
+    password: vpn
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vkvd127.mycdn.me
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "DE->DE->RTL->@HIDDIFY_plas_77"
+    type: vmess
+    server: 57.129.24.124
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "CO->CO->ADL->@HIDDIFY_plas_78"
+    type: ss
+    server: 181.119.30.20
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "CN->CN->MTN->@HIDDIFY_plas_80"
+    type: vmess
+    server: 112.132.215.12
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_83"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: ENfXcbbP8P2ykc1ypjV22J4hdNwTWuxDWqs5GX2mnH6GMCqL5XyhNztpn7oPzK9nyToReNDbnbV3E1gsEh98GYJrBKMf6HrS
+
+  - name: "US->NL->MTN->@HIDDIFY_plas_87"
+    type: ss
+    server: 45.87.175.10
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_88"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: wUcoYw1SAVnxhKb1PGmqe69uCJjggJoDogXfPCmDCkvhnM1mJbExnxJethPBEiC49dsUdurRBCn9gh2U231vYAyYPSwtYAaw
+
+  - name: "US->NL->RTL->@HIDDIFY_plas_89"
+    type: ss
+    server: 45.87.175.199
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+
+  - name: "US->NL->MTN->@HIDDIFY_plas_92"
+    type: ss
+    server: 45.87.175.157
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: cvII85TrW6n0OGyfpHVS1u
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_94"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 94wmMoMPkmrWhgSg3qoWTTLdyDXToQyL654pMeQq91uMpWY2hUZxg5NRQfKfiVGXvyRnt9fd8oV5RWaCfCj5Yu7VFGrhkixE
+
+  - name: "CN->CN->MTN->@HIDDIFY_plas_99"
+    type: vmess
+    server: 47.116.166.178
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+
+  - name: "PL->PL->ADL->@HIDDIFY_plas_102"
+    type: vmess
+    server: 146.59.55.50
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: o.metuji.com
+    tls: true
+    skip-cert-verify: true
+    servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+
+  - name: "US->US->RTL->@HIDDIFY_plas_104"
+    type: vmess
+    server: 2.58.87.221
+    port: 12269
+    udp: true
+    uuid: db85ff0e-c33f-401d-c415-4c7cce135704
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+
+  - name: "DE->DE->ADL->@HIDDIFY_plas_107"
+    type: vmess
+    server: 57.129.41.216
+    port: 8443
+    udp: true
+    uuid: 3967c059-865d-40af-ba3c-8abc9ba5c7f8
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess/
+    tls: true
+    skip-cert-verify: true
+    servername: ov-germany1.09vpn.com
+
+  - name: "VE->NL->RTL->@HIDDIFY_plas_108"
+    type: ss
+    server: 45.158.171.151
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: cvII85TrW6n0OGyfpHVS1u
+
+  - name: "FR->FR->ADL->@HIDDIFY_plas_109"
+    type: vmess
+    server: 5.196.29.123
+    port: 2082
+    udp: true
+    uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+
+  - name: "PR->PR->ADL->@HIDDIFY_plas_110"
+    type: ss
+    server: 185.47.255.22
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "CA->FR->RTL->@HIDDIFY_plas_113"
+    type: vmess
+    server: 104.21.94.64
+    port: 443
+    udp: true
+    uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi
+      headers:
+        Host: beyonddsz.cfd
+    tls: true
+    skip-cert-verify: true
+    servername: beyonddsz.cfd
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_116"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: NRKiRKbFdENKGAB1Dtk3asvtimbQnmDS4qVG8YQeeggj92VKDxejBu98VEcWn2DG6afNaYMBmQ36WruT9RUgqxWXx5VkwW3X
+
+  - name: "VE->NL->RTL->@HIDDIFY_plas_117"
+    type: ss
+    server: 45.158.171.132
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 4a2rfixophdjffa8KVA4Aa
+
+  - name: "US->US->ADL->@HIDDIFY_plas_122"
+    type: ss
+    server: 67.220.95.102
+    port: 7307
+    udp: true
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+
+  - name: "CY->CY->ADL->@HIDDIFY_plas_124"
+    type: ss
+    server: 134.255.210.49
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_125"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: Zc6cLCqRjEndhKvHW3Tv92DXrpMmQBhVTi8V3g6GvoNKZAoPbUkiLvAa9cGzY2NxA7N5fqrgBWeyqxJT2erSZdUJB84b9oiJ
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_126"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 2WJbjavFHQv7vgKhyHEMg7oYTLzQ98GqTTU7LmW2ZuCHy9eZLBkojcCygB1GydiWYmDiwhGHun3Xi9Dm4s9Ho9QSnCMeHaPH
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_127"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: x6EKaChK1zEYVfctyXeTfyCSPRFFHcDQ1nah5TEknRPe7BNddwijrGDX7xaYR4NRNRfCK9LtQLEgahMfAGCTqZTxCdzVKGg9
+
+  - name: "CN->CN->MTN->@HIDDIFY_plas_132"
+    type: vmess
+    server: 47.104.186.133
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+
+  - name: "DE->DE->ADL->@HIDDIFY_plas_134"
+    type: vmess
+    server: 57.129.28.69
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: baradiha.com
+    tls: true
+    skip-cert-verify: true
+    servername: baradiha.com
+
+  - name: "VN->VN->ADL->@HIDDIFY_plas_135"
+    type: ss
+    server: 160.19.78.75
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: Nk9asglDzHzjktVzTkvhaA
+
+  - name: "ES->ES->ADL->@HIDDIFY_plas_136"
+    type: ss
+    server: 45.154.206.192
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_137"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: aU7zH4CNgniMdKTCD5BvUEK2p94seoENgYE1rS77cybiNGBPeptxfDeV7QsvMvNxLyr94cbh3Ekztat43dBfu7yqLTxekGgF
+
+  - name: "US->US->ADL->@HIDDIFY_plas_139"
+    type: ss
+    server: 23.154.136.51
+    port: 8888
+    udp: true
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+
+  - name: "GB->GB->MTN->@HIDDIFY_plas_143"
+    type: trojan
+    server: uk-02.allhubb.info
+    port: 8443
+    udp: true
+    password: zsu4Mq3A9J
+    tls: true
+    skip-cert-verify: true
+    servername: uk-02.allhubb.info
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_145"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 9nkUgSHn4Rnesx6BPMKZJGcBDa6mXVPJKLa9e48zF8NVC16hXefJSK5VdNH6Qv7US2CgR7YXtUsUVFNj8RvMXBBfH9gVwLnw
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_146"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: wyRjDzZYC9E2aQ9iamj1vuj7ZckYVGLHn9yq92jRUUCdoz1AEKtSJRpiMPxXaiXfpXBJCp3gjsNbM9i2PbqeteCsXUWwDEAc
+
+  - name: "DE->DE->MTN->@HIDDIFY_plas_148"
+    type: vmess
+    server: ov-germany1.09vpn.com
+    port: 80
+    udp: true
+    uuid: 8617d9e2-0a57-4168-81cd-661f190e9533
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess/
+
+  - name: "DE->DE->RTL->@HIDDIFY_plas_149"
+    type: vmess
+    server: 57.129.25.20
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: 57.129.25.20
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_151"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: YK6GT67yU6Sq5tddkkqgz28RAqh16VcftFxck4xbkXyYNQ98SCn4YG3vthQ6y1rJEfnzxmHt9UGvuin6kDnC1cRercRMTYs1
+
+  - name: "GB->->MTN->@HIDDIFY_plas_152"
+    type: ss
+    server: series-a2-me.varzesh360.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: Bog0ELmMM9DSxDdQ
+
+  - name: "SG->SG->ADL->@HIDDIFY_plas_153"
+    type: vmess
+    server: 84.247.147.67
+    port: 54179
+    udp: true
+    uuid: d143ebbc-7825-4b43-a55e-f11cb153bd5b
+    alterId: 0
+    cipher: auto
+
+  - name: "NL->NL->ADL->@HIDDIFY_plas_155"
+    type: ss
+    server: 103.104.247.47
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+
+  - name: "US->US->ADL->@HIDDIFY_plas_156"
+    type: trojan
+    server: 138.197.5.103
+    port: 443
+    udp: true
+    password: xxoo
+    tls: true
+    skip-cert-verify: true
+    servername: dserver.adad.ir
+
+  - name: "US->NL->RTL->@HIDDIFY_plas_158"
+    type: ss
+    server: 45.87.175.154
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+
+  - name: "CN->CN->MTN->@HIDDIFY_plas_160"
+    type: vmess
+    server: 120.26.55.225
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+
+  - name: "US->->RTL->@HIDDIFY_plas_162"
+    type: ss
+    server: 2.58.87.221
+    port: 16899
+    udp: true
+    cipher: aes-128-gcm
+    password: Yc2CtrIz8L
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_163"
+    type: ss
+    server: 185.5.38.111
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: ENfXcbbP8P2ykc1ypjV22J4hdNwTWuxDWqs5GX2mnH6GMCqL5XyhNztpn7oPzK9nyToReNDbnbV3E1gsEh98GYJrBKMf6HrS
+
+  - name: "SG->SG->ADL->@HIDDIFY_plas_165"
+    type: vmess
+    server: 62.146.232.159
+    port: 14372
+    udp: true
+    uuid: ed1d7ea8-bf40-4a4a-8eac-8e57798ba6f7
+    alterId: 0
+    cipher: auto
+
+  - name: "VE->NL->RTL->@HIDDIFY_plas_168"
+    type: ss
+    server: 45.158.171.151
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: QCXDxuDlTTMD7jtgHUjIoj
+
+  - name: "DE->DE->MTN->@HIDDIFY_plas_169"
+    type: vmess
+    server: 57.129.24.124
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: aveiror.com
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_170"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: TvrwTiaD3nZnGyQkwLHexB7Kae6ZQ1naXn32651AWpTiPK23gNV9XjN42xaktTtGS5CE8r6tzjkBpr94ZXCX7cDEQi2Zk9Cp
+
+  - name: "US->US->ADL->@HIDDIFY_plas_173"
+    type: ss
+    server: 67.220.95.102
+    port: 8009
+    udp: true
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_175"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: yCpSJMYkFQepG4o4QNKyo7qotpREJzwS1bbkyHNauphrKgYUhU3BLE1nbAeTqYZh8rM9KRexnYNgEWBmtZH1rjxd2biDqXJM
+
+  - name: "DE->DE->ADL->@HIDDIFY_plas_176"
+    type: ss
+    server: 51.195.119.47
+    port: 1080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: qXvO7zYU7KeaB0Md7DQLow
+
+  - name: "CA->FR->MTN->@HIDDIFY_plas_177"
+    type: vmess
+    server: 104.21.15.212
+    port: 443
+    udp: true
+    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: glweidf.sbs
+    tls: true
+    skip-cert-verify: true
+    servername: glweidf.sbs
+
+  - name: "US->US->ADL->@HIDDIFY_plas_183"
+    type: ss
+    server: 67.220.95.102
+    port: 6379
+    udp: true
+    cipher: aes-256-gcm
+    password: zDNVedRFPQexG9v
+
+  - name: "US->NL->MTN->@HIDDIFY_plas_184"
+    type: ss
+    server: 45.87.175.157
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: QCXDxuDlTTMD7jtgHUjIoj
+
+  - name: "CN->CN->MTN->@HIDDIFY_plas_185"
+    type: vmess
+    server: 47.104.186.133
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+
+  - name: "US->NL->MTN->@HIDDIFY_plas_190"
+    type: ss
+    server: 45.87.175.188
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+
+  - name: "DE->DE->RTL->@HIDDIFY_plas_196"
+    type: vmess
+    server: 57.129.24.125
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: aveiror.com
+    tls: true
+    skip-cert-verify: true
+    servername: aveiror.com
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_199"
+    type: ss
+    server: 185.5.38.111
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 2EmWRS1TkS3TkxKApnrihb3aHjDSXRvT1T1K9U2Bruxrnp5A8zmpTxwwTNje6BkVqmn9BgRF6pq8qoRHCfZdcah7BLbjrpT1
+
+  - name: "US->US->ADL->@HIDDIFY_plas_200"
+    type: ss
+    server: 23.154.136.51
+    port: 5499
+    udp: true
+    cipher: aes-256-gcm
+    password: lGqs95QkFHo2NV
+
+  - name: "DE->DE->RTL->@HIDDIFY_plas_201"
+    type: vmess
+    server: 57.129.25.20
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: linkvws
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "VE->NL->ADL->@HIDDIFY_plas_202"
+    type: ss
+    server: 45.158.171.60
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+
+  - name: "FR->FR->MTN->@DeamNet_Proxy_204"
+    type: vmess
+    server: beyonddsz.cfd
+    port: 443
+    udp: true
+    uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: beyonddsz.cfd
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_206"
+    type: ss
+    server: 185.5.38.111
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: FjgGNNHQiELzxXmaHRxxtQbxDDvGXFxYdTbYe91JKZsjvKLHoY9rn9ruYE45377WjtU3m4kmXQZDXiHBJsgVfhmpawEoGvq9
+
+  - name: "US->US->ADL->@HIDDIFY_plas_208"
+    type: ss
+    server: 67.220.95.102
+    port: 8090
+    udp: true
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+
+  - name: "US->NL->MTN->@HIDDIFY_plas_209"
+    type: ss
+    server: 45.87.175.22
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_211"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 2DvuGfaUJ7oM9E6mHWkZN9dAjPxtpndv4ckpPpyuexJxKLn6SpDQdBBJDFE6Gqj9MXpRHPDwYfNAqKgpBWTCWPrG4eDmnGTZ
+
+  - name: "US->US->ADL->@HIDDIFY_plas_212"
+    type: ss
+    server: 172.233.128.126
+    port: 1866
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oXGp1+ihlfKg826H
+
+  - name: "RU->RU->ADL->@HIDDIFY_plas_214"
+    type: ss
+    server: 5.189.201.250
+    port: 31348
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: RiPuKJJl18ZgvLpTjWxBwSfKiPkt9gzFKyxGCY8eHtOcDb2X
+
+  - name: "US->NL->ADL->@HIDDIFY_plas_216"
+    type: ss
+    server: 45.87.175.164
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 4a2rfixophdjffa8KVA4Aa
+
+  - name: "SG->->RTL->@HIDDIFY_plas_217"
+    type: vmess
+    server: 62.146.232.156
+    port: 33281
+    udp: true
+    uuid: 24eda0ea-acf0-4538-a001-f746a480237a
+    alterId: 0
+    cipher: auto
+
+  - name: "US->NL->MTN->@HIDDIFY_plas_219"
+    type: ss
+    server: 45.87.175.188
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: cvII85TrW6n0OGyfpHVS1u
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_220"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: p9UCPSVPxK92Msfi2nSV7rK62WkCJf721N3Zk2e3kh6aYdVhxcLwxq34S1Z4WA4HsHQXBrhhAjkZLSKtBaMVP6hTHF31RMov
+
+  - name: "GB->->MTN->@HIDDIFY_plas_221"
+    type: ss
+    server: series-a2-mec.samanehha.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: u17T3BvpYaaiuW2c
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_222"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 2UNhq6bcq57shMzvVCgmWrnbobjgW3au5pv658oUHkJS7CRkMLpdu1WnYBzaVZDt66x6dmbJ3k9zeNKKth4mG8pstXRUnQaT
+
+  - name: "US->US->MTN->@HIDDIFY_plas_223"
+    type: vmess
+    server: 43.153.104.62
+    port: 45113
+    udp: true
+    uuid: 97cc0323-de53-4a75-d69d-c6acdac5fdc7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /97cc0323
+
+  - name: "GB->->RTL->@HIDDIFY_plas_225"
+    type: ss
+    server: series-a1.samanehha.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+
+  - name: "US->US->ADL->@HIDDIFY_plas_226"
+    type: ss
+    server: 69.50.93.113
+    port: 9101
+    udp: true
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_227"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: tRVH6ZVjtjWCvREPvSgTx6jwmensa6of9w26NwnZ5n1V3bWeNBsq2A86K3RWGRyjA89Tqibnri4HuDtvE24KU2Sb65RUeVJz
+
+  - name: "CA->US->MTN->@HIDDIFY_plas_228"
+    type: vmess
+    server: orvps2.horsenma.net
+    port: 8443
+    udp: true
+    uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /horsen
+      headers:
+        Host: orvps2.horsenma.net
+    tls: true
+    skip-cert-verify: true
+    servername: orvps2.horsenma.net
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_229"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 2GxGsDp6h9ZN2UvHrMMKxgJqwrX5GUJ65dQZu6Ji9VE5k7kTQu5T1FSDkci9xgP3wxbe25mRxUF33BskcbHwt6t8U2hTYtV4
+
+  - name: "US->NL->MTN->@HIDDIFY_plas_231"
+    type: ss
+    server: 45.87.175.28
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+
+  - name: "RU->RU->ADL->@HIDDIFY_plas_233"
+    type: ss
+    server: 185.126.239.250
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_235"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: SqgmUzd7ZxGyPLjXBXrzwTU4jkz7EvbY2XcBgcp77LhKTXYvUaNRZNZi9Z1Ee9JBzYy5dnK1LZNYvtdUJe97SDHULz939xua
+
+  - name: "US->US->RTL->@HIDDIFY_plas_236"
+    type: vmess
+    server: 2.58.87.221
+    port: 14555
+    udp: true
+    uuid: 6c764a03-bb1a-4bc6-baca-452453fce1ae
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_238"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: Ag9Q4j87WAWH6dygoH5Jzgv9ppjCtHCaJ6eG3hJHidyHFETkDN8g7StPxRDjuPsoH6pEdSsnuXNfXURibG9vwizcLJ5Ff5zz
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_241"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: hdUkyS4wGoL5n3yaBhm5JUAeXcwrCek2hQ7G6nh6GyYpwvU7JqRpJWLkVUQYzYXQ9MMb4YvSPvrCidN9VVgmTUvfkZBghCqr
+
+  - name: "US->US->ADL->@HIDDIFY_plas_243"
+    type: ss
+    server: 23.150.248.50
+    port: 8090
+    udp: true
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+
+  - name: "US->NL->RTL->@HIDDIFY_plas_246"
+    type: ss
+    server: 45.87.175.166
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 4a2rfixophdjffa8KVA4Aa
+
+  - name: "CN->CN->ADL->@HIDDIFY_plas_250"
+    type: vmess
+    server: 112.132.215.12
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+
+  - name: "GB->->MTN->@HIDDIFY_plas_254"
+    type: ss
+    server: 85.210.120.237
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: Bog0ELmMM9DSxDdQ
+
+  - name: "BR->BR->MTN->@HIDDIFY_plas_256"
+    type: vmess
+    server: pq-brazil1.09vpn.com
+    port: 80
+    udp: true
+    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess/
+      headers:
+        Host: pq-brazil1.09vpn.com
+
+  - name: "CN->CN->MTN->@HIDDIFY_plas_257"
+    type: vmess
+    server: 47.92.152.169
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_258"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: AmxHJ6RVjmwKnuVo513Wt4Lmwh3i8cdTLXmqF35NnBGL1Ko6AYF7dvNAZNWCcBifbtLJHQxNVcc3PwgtLbxKPLrMhkDRTFab
+
+  - name: "PL->PL->ADL->@HIDDIFY_plas_259"
+    type: ss
+    server: 45.144.48.63
+    port: 57456
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: d3837224ed465f00
+
+  - name: "US->NL->RTL->@HIDDIFY_plas_262"
+    type: ss
+    server: 45.87.175.166
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: cvII85TrW6n0OGyfpHVS1u
+
+  - name: "CA->FR->MTN->@HIDDIFY_plas_263"
+    type: vmess
+    server: 172.67.207.26
+    port: 443
+    udp: true
+    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: glweidf.sbs
+    tls: true
+    skip-cert-verify: true
+    servername: glweidf.sbs
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_264"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: GaKXVig9GWGeCeTvSv3npvU3qYCgbbAMypPQUY9Wm9xJTNCQGCCGKcpg4vYeH6AxwYNY4mLqKrBWvoyNb43CGU3d1sd8tfRp
+
+  - name: "US->NL->RTL->@HIDDIFY_plas_265"
+    type: ss
+    server: 45.87.175.164
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: cvII85TrW6n0OGyfpHVS1u
+
+  - name: "US->->MTN->@HIDDIFY_plas_266"
+    type: vmess
+    server: hk2.lrzdx.uk
+    port: 443
+    udp: true
+    uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /register
+    tls: true
+    skip-cert-verify: true
+    servername: hk2.lrzdx.uk
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_267"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 29mQbRJ8ps1x3EnWgAGRCBGrLSP5sxhxpoka6DdCe5cfb1YAvEFZxEXPCWjxsQbSDjFPFqM8KNnDQYfW1s1fsnCuHsGbCxGr
+
+  - name: "US->NL->MTN->@HIDDIFY_plas_270"
+    type: ss
+    server: 45.87.175.65
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+
+  - name: "LT->LT->ADL->@HIDDIFY_plas_271"
+    type: ss
+    server: 192.36.61.59
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "GB->->RTL->@HIDDIFY_plas_272"
+    type: ss
+    server: admin.c1.webramz.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+
+  - name: "DE->DE->ADL->@HIDDIFY_plas_274"
+    type: vmess
+    server: 57.129.25.22
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: o.metuji.com
+    tls: true
+    skip-cert-verify: true
+    servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+
+  - name: "CA->FR->RTL->@HIDDIFY_plas_275"
+    type: vmess
+    server: 172.67.170.13
+    port: 443
+    udp: true
+    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: glweidf.sbs
+    tls: true
+    skip-cert-verify: true
+    servername: glweidf.sbs
+
+  - name: "GB->->ADL->@HIDDIFY_plas_276"
+    type: ss
+    server: series-a2.varzesh360.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+
+  - name: "VE->NL->ADL->@HIDDIFY_plas_279"
+    type: ss
+    server: 45.158.171.141
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: cvII85TrW6n0OGyfpHVS1u
+
+  - name: "US->US->ADL->@HIDDIFY_plas_281"
+    type: ss
+    server: 67.220.95.102
+    port: 9102
+    udp: true
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+
+  - name: "SG->SG->ADL->@HIDDIFY_plas_282"
+    type: ss
+    server: 64.176.85.73
+    port: 1866
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oXGp1+ihlfKg826H
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_284"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: YLpDMwoLZi9Dvkr7Q6PCfkwCKJt23MkhD1LHDjnKVjS1R9Z4dD9vY5FffuYCtDVcSzHJLdicZbm4Dh6p8Nsd5d88gzAWYrQY
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_285"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oHguU86Hoa41HAncW88o4kEspy8sos9tkbnK6uLvsgfMetuFKEChk2QY6eR3a67NXAmWe2kD8vbhZEyuw2Gx1hDPXXSgmimt
+
+  - name: "US->FR->ADL->@HIDDIFY_plas_289"
+    type: vmess
+    server: development.net
+    port: 443
+    udp: true
+    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: glweidf.sbs
+    tls: true
+    skip-cert-verify: true
+    servername: glweidf.sbs
+
+  - name: "NL->NL->ADL->@HIDDIFY_plas_291"
+    type: ss
+    server: 89.23.103.21
+    port: 51584
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oYQ8JwEldYn4KT2gfZ6eNl
+
+  - name: "CA->NL->RTL->@HIDDIFY_plas_292"
+    type: vmess
+    server: 104.17.148.22
+    port: 443
+    udp: true
+    uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top/azumase.ren
+      headers:
+        Host: bitter-boat-6004.samineh-sfri-95.workers.dev
+    tls: true
+    skip-cert-verify: true
+    servername: bitter-boat-6004.samineh-sfri-95.workers.dev
+
+  - name: "US->US->ADL->@HIDDIFY_plas_294"
+    type: ss
+    server: 173.244.56.6
+    port: 443
+    udp: true
+    cipher: aes-128-gcm
+    password: shadowsocks
+
+  - name: "US->US->ADL->@HIDDIFY_plas_295"
+    type: trojan
+    server: 138.197.5.103
+    port: 443
+    udp: true
+    password: xxoo
+    tls: true
+    skip-cert-verify: true
+    servername: telewebion.com
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_296"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: rU9jurtJ2zHpTf5CeJ5LCAzGoSc7KCYmzuM8qnQzAXUJA8jfreYWPJtLcHC4dJXSSAQ3mLhJdbVPE1MRop37WkganscRnYv4
+
+  - name: "GB->->MTN->@HIDDIFY_plas_301"
+    type: ss
+    server: series-a2-mec.varzesh360.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: u17T3BvpYaaiuW2c
+
+  - name: "US->NL->MTN->@HIDDIFY_plas_302"
+    type: ss
+    server: 45.87.175.35
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+
+  - name: "IN->IN->RTL->@HIDDIFY_plas_306"
+    type: vmess
+    server: 152.67.8.205
+    port: 80
+    udp: true
+    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+
+  - name: "GB->->MTN->@HIDDIFY_plas_307"
+    type: ss
+    server: api.namasha.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: u17T3BvpYaaiuW2c
+
+  - name: "US->US->ADL->@HIDDIFY_plas_309"
+    type: ss
+    server: 23.154.136.148
+    port: 6679
+    udp: true
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+
+  - name: "FI->FI->ADL->@HIDDIFY_plas_310"
+    type: ss
+    server: 185.5.38.111
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: yCpSJMYkFQepG4o4QNKyo7qotpREJzwS1bbkyHNauphrKgYUhU3BLE1nbAeTqYZh8rM9KRexnYNgEWBmtZH1rjxd2biDqXJM
+
+  - name: "FI->FI->RTL->@HIDDIFY_plas_311"
+    type: ss
+    server: mx2.drawnrisha.one
+    port: 55988
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: N2BWo2zKfmA7JoWhnRQSXrN6LFmPSpLccpYVcUeo8UoMq4dvFafbZ3WiDVfCFDsLVPe5jiFagjMf45ZVg9rxRk1JRcJKRKJQ
+
+  - name: "US->NL->RTL->@HIDDIFY_plas_312"
+    type: ss
+    server: 45.87.175.181
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+
+  - name: "CA->FR->MTN->@HIDDIFY_plas_319"
+    type: vmess
+    server: 172.67.170.13
+    port: 443
+    udp: true
+    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: glweidf.sbs
+    tls: true
+    skip-cert-verify: true
+    servername: glweidf.sbs
+
+  - name: "US->US->ADL->@HIDDIFY_plas_323"
+    type: ss
+    server: 67.220.95.102
+    port: 8118
+    udp: true
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+
+  - name: "US->US->RTL->@HIDDIFY_plas_324"
+    type: trojan
+    server: 138.197.5.103
+    port: 443
+    udp: true
+    password: xxoo
+    tls: true
+    skip-cert-verify: true
+    servername: telewebion.com
+
+  - name: "CA->CA->RTL->@HIDDIFY_plas_325"
+    type: ss
+    server: 142.4.216.225
+    port: 80
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: JIhN6rBKkaEboLNXVSv5rq
+
+proxy-groups:
+  - name: ♻️ auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "DE->DE->RTL->@HIDDIFY_plas_0"
+      - "VN->VN->RTL->@HIDDIFY_plas_3"
+      - "RU->RU->MTN->@HIDDIFY_plas_4"
+      - "FI->FI->ADL->@HIDDIFY_plas_5"
+      - "DE->DE->ADL->@HIDDIFY_plas_6"
+      - "FI->FI->RTL->@HIDDIFY_plas_11"
+      - "GB->->RTL->@HIDDIFY_plas_12"
+      - "HK->HK->ADL->@HIDDIFY_plas_13"
+      - "FR->FR->RTL->@HIDDIFY_plas_16"
+      - "GB->->MTN->@HIDDIFY_plas_18"
+      - "CA->US->ADL->@HIDDIFY_plas_21"
+      - "VE->NL->RTL->@HIDDIFY_plas_27"
+      - "CA->DE->MTN->@HIDDIFY_plas_28"
+      - "BR->BR->ADL->@HIDDIFY_plas_31"
+      - "DE->DE->ADL->@HIDDIFY_plas_33"
+      - "US->US->ADL->@HIDDIFY_plas_35"
+      - "US->US->ADL->@HIDDIFY_plas_36"
+      - "FI->FI->RTL->@HIDDIFY_plas_37"
+      - "FI->FI->RTL->@HIDDIFY_plas_40"
+      - "GB->->ADL->@HIDDIFY_plas_45"
+      - "GB->->ADL->@HIDDIFY_plas_50"
+      - "US->NL->MTN->@HIDDIFY_plas_54"
+      - "CA->FR->RTL->@HIDDIFY_plas_55"
+      - "FI->FI->RTL->@HIDDIFY_plas_56"
+      - "ID->ID->ADL->@HIDDIFY_plas_57"
+      - "NL->NL->ADL->@HIDDIFY_plas_58"
+      - "CA->->RTL->@HIDDIFY_plas_60"
+      - "GB->GB->RTL->@HIDDIFY_plas_62"
+      - "FI->FI->ADL->@HIDDIFY_plas_64"
+      - "SG->SG->ADL->@HIDDIFY_plas_67"
+      - "FI->FI->RTL->@HIDDIFY_plas_68"
+      - "CA->FR->RTL->@HIDDIFY_plas_73"
+      - "SE->SE->RTL->@HIDDIFY_plas_76"
+      - "DE->DE->RTL->@HIDDIFY_plas_77"
+      - "CO->CO->ADL->@HIDDIFY_plas_78"
+      - "CN->CN->MTN->@HIDDIFY_plas_80"
+      - "FI->FI->RTL->@HIDDIFY_plas_83"
+      - "US->NL->MTN->@HIDDIFY_plas_87"
+      - "FI->FI->RTL->@HIDDIFY_plas_88"
+      - "US->NL->RTL->@HIDDIFY_plas_89"
+      - "US->NL->MTN->@HIDDIFY_plas_92"
+      - "FI->FI->ADL->@HIDDIFY_plas_94"
+      - "CN->CN->MTN->@HIDDIFY_plas_99"
+      - "PL->PL->ADL->@HIDDIFY_plas_102"
+      - "US->US->RTL->@HIDDIFY_plas_104"
+      - "DE->DE->ADL->@HIDDIFY_plas_107"
+      - "VE->NL->RTL->@HIDDIFY_plas_108"
+      - "FR->FR->ADL->@HIDDIFY_plas_109"
+      - "PR->PR->ADL->@HIDDIFY_plas_110"
+      - "CA->FR->RTL->@HIDDIFY_plas_113"
+      - "FI->FI->RTL->@HIDDIFY_plas_116"
+      - "VE->NL->RTL->@HIDDIFY_plas_117"
+      - "US->US->ADL->@HIDDIFY_plas_122"
+      - "CY->CY->ADL->@HIDDIFY_plasy_124"
+      - "FI->FI->ADL->@HIDDIFY_plas_125"
+      - "FI->FI->RTL->@HIDDIFY_plas_126"
+      - "FI->FI->ADL->@HIDDIFY_plas_127"
+      - "CN->CN->MTN->@HIDDIFY_plas_132"
+      - "DE->DE->ADL->@HIDDIFY_plas_134"
+      - "VN->VN->ADL->@HIDDIFY_plas_135"
+      - "ES->ES->ADL->@HIDDIFY_plas_136"
+      - "FI->FI->RTL->@HIDDIFY_plas_137"
+      - "US->US->ADL->@HIDDIFY_plas139"
+      - "GB->GB->MTN->@HIDDIFY_plas_143"
+      - "FI->FI->RTL->@HIDDIFY_plas_145"
+      - "FI->FI->RTL->@HIDDIFY_plas_146"
+      - "DE->DE->MTN->@HIDDIFY_plas_148"
+      - "DE->DE->RTL->@HIDDIFY_plas_149"
+      - "FI->FI->RTL->@HIDDIFY_plas_151"
+      - "GB->->MTN->@HIDDIFY_plas_152"
+      - "SG->SG->ADL->@HIDDIFY_plas_153"
+      - "NL->NL->ADL->@HIDDIFY_plas_155"
+      - "US->US->ADL->@HIDDIFY_plas_156"
+      - "US->NL->RTL->@HIDDIFY_plas_158"
+      - "CN->CN->MTN->@HIDDIFY_plas_160"
+      - "US->->RTL->@HIDDIFY_plas_162"
+      - "FI->FI->ADL->@HIDDIFY_plas_163"
+      - "SG->SG->ADL->@HIDDIFY_plas_165"
+      - "VE->NL->RTL->@HIDDIFY_plas_168"
+      - "DE->DE->MTN->@HIDDIFY_plas_169"
+      - "FI->FI->ADL->@HIDDIFY_plas_170"
+      - "US->US->ADL->@HIDDIFY_plas_173"
+      - "FI->FI->ADL->@HIDDIFY_plas_175"
+      - "DE->DE->ADL->@HIDDIFY_plas_176"
+      - "CA->FR->MTN->@HIDDIFY_plas_177"
+      - "US->US->ADL->@HIDDIFY_plas_183"
+      - "US->NL->MTN->@HIDDIFY_plas_184"
+      - "CN->CN->MTN->@HIDDIFY_plas_185"
+      - "US->NL->MTN->@HIDDIFY_plas_190"
+      - "DE->DE->RTL->@HIDDIFY_plas_196"
+      - "FI->FI->RTL->@HIDDIFY_plas_199"
+      - "US->US->ADL->@HIDDIFY_plas_200"
+      - "DE->DE->RTL->@HIDDIFY_plasy_201"
+      - "VE->NL->ADL->@HIDDIFY_plas_202"
+      - "FR->FR->MTN->@HIDDIFY_plas_204"
+      - "FI->FI->RTL->@HIDDIFY_plas_206"
+      - "US->US->ADL->@HIDDIFY_plas_208"
+      - "US->NL->MTN->@HIDDIFY_plas_209"
+      - "FI->FI->RTL->@HIDDIFY_plas_211"
+      - "US->US->ADL->@HIDDIFY_plas_212"
+      - "RU->RU->ADL->@HIDDIFY_plas_214"
+      - "US->NL->ADL->@HIDDIFY_plas_216"
+      - "SG->->RTL->@HIDDIFY_plas_217"
+      - "US->NL->MTN->@HIDDIFY_plas_219"
+      - "FI->FI->RTL->@HIDDIFY_plas_220"
+      - "GB->->MTN->@HIDDIFY_plas_221"
+      - "FI->FI->RTL->@HIDDIFY_plas_222"
+      - "US->US->MTN->@HIDDIFY_plas_223"
+      - "GB->->RTL->@HIDDIFY_plas_225"
+      - "US->US->ADL->@HIDDIFY_plas_226"
+      - "FI->FI->ADL->@HIDDIFY_plas_227"
+      - "CA->US->MTN->@HIDDIFY_plas_228"
+      - "FI->FI->RTL->@HIDDIFY_plas_229"
+      - "US->NL->MTN->@HIDDIFY_plas_231"
+      - "RU->RU->ADL->@HIDDIFY_plas_233"
+      - "FI->FI->RTL->@HIDDIFY_plas_235"
+      - "US->US->RTL->@HIDDIFY_plas_236"
+      - "FI->FI->RTL->@HIDDIFY_plas_238"
+      - "FI->FI->RTL->@HIDDIFY_plas_241"
+      - "US->US->ADL->@HIDDIFY_plas_243"
+      - "US->NL->RTL->@HIDDIFY_plas_246"
+      - "CN->CN->ADL->@HIDDIFY_plas_250"
+      - "GB->->MTN->@HIDDIFY_plas_254"
+      - "BR->BR->MTN->@HIDDIFY_plas_256"
+      - "CN->CN->MTN->@HIDDIFY_plas_257"
+      - "FI->FI->RTL->@HIDDIFY_plas_258"
+      - "PL->PL->ADL->@HIDDIFY_plas_259"
+      - "US->NL->RTL->@HIDDIFY_plas_262"
+      - "CA->FR->MTN->@HIDDIFY_plas_263"
+      - "FI->FI->ADL->@HIDDIFY_plas_264"
+      - "US->NL->RTL->@HIDDIFY_plas_265"
+      - "US->->MTN->@HIDDIFY_plas_266"
+      - "FI->FI->RTL->@HIDDIFY_plas_267"
+      - "US->NL->MTN->@HIDDIFY_plas_270"
+      - "LT->LT->ADL->@HIDDIFY_plas_271"
+      - "GB->->RTL->@HIDDIFY_plas_272"
+      - "DE->DE->ADL->@HIDDIFY_plas_274"
+      - "CA->FR->RTL->@HIDDIFY_plas_275"
+      - "GB->->ADL->@HIDDIFY_plas_276"
+      - "VE->NL->ADL->@HIDDIFY_plas_279"
+      - "US->US->ADL->@HIDDIFY_plasy_281"
+      - "SG->SG->ADL->@HIDDIFY_plas_282"
+      - "FI->FI->RTL->@HIDDIFY_plas_284"
+      - "FI->FI->RTL->@HIDDIFY_plas_285"
+      - "US->FR->ADL->@HIDDIFY_plas_289"
+      - "NL->NL->ADL->@HIDDIFY_plas_291"
+      - "CA->NL->RTL->@HIDDIFY_plas_292"
+      - "US->US->ADL->@HIDDIFY_plas_294"
+      - "US->US->ADL->@HIDDIFY_plas_295"
+      - "FI->FI->RTL->@HIDDIFY_plas_296"
+      - "GB->->MTN->@HIDDIFY_plas_301"
+      - "US->NL->MTN->@HIDDIFY_plas_302"
+      - "IN->IN->RTL->@HIDDIFY_plas_306"
+      - "GB->->MTN->@HIDDIFY_plas_307"
+      - "US->US->ADL->@HIDDIFY_plas_309"
+      - "FI->FI->ADL->@HIDDIFY_plas_310"
+      - "FI->FI->RTL->@HIDDIFY_plas_311"
+      - "US->NL->RTL->@HIDDIFY_plas_312"
+      - "CA->FR->MTN->@HIDDIFY_plas_319"
+      - "US->US->ADL->@HIDDIFY_plas_323"
+      - "US->US->RTL->@HIDDIFY_plas_324"
+      - "CA->CA->RTL->@HIDDIFY_plas_325"
+rules:
+ - MATCH,♻️ auto
