@@ -1,0 +1,3326 @@
+//profile-title: کانال تلگرامی ما ✨ ( @HIDDIFY_plas ) ✨ برای کانفیگ های بیشتر جوین شو
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=140589529542; expire=1755800000
+
+{
+ "outbounds": [
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas1 § 0",
+   "server": "104.17.147.22",
+   "server_port": 80,
+   "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@V2ray_Alpha/",
+    "headers": {
+     "Host": "redfree8mahsang6.redfree8.ir"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas2 § 1",
+   "server": "series-a2-mec.varzesh360.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "u17T3BvpYaaiuW2c"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas3 § 2",
+   "server": "216.173.70.187",
+   "server_port": 57456,
+   "method": "chacha20-ietf-poly1305",
+   "password": "360e21d21977dc11"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas4 § 3",
+   "server": "series-a2-mec.samanehha.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "u17T3BvpYaaiuW2c"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas5 § 4",
+   "server": "accounting.vinamarketcenter.ir",
+   "server_port": 443,
+   "uuid": "5cfba4ac-105a-452a-ac10-88b1adf784ee",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.tgju.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "T7Cwk-B3EvZqqRywIgN_TNotJiUOXYUI9bHqYKPnTi0"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas6 § 5",
+   "server": "104.16.53.11",
+   "server_port": 80,
+   "uuid": "9fc94683-42be-4c44-9525-096f675965db",
+   "transport": {
+    "type": "ws",
+    "path": "/?ed",
+    "headers": {
+     "Host": "dETeRMiNeD-COuRT.oneEaT.CO."
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas7 § 6",
+   "server": "45.144.49.140",
+   "server_port": 57456,
+   "method": "chacha20-ietf-poly1305",
+   "password": "360e21d21977dc11"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas8 § 7",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "162.159.129.11",
+   "server_port": 2053,
+   "uuid": "b1a8ceea-6601-45b5-a674-7e5b64ab6f6f",
+   "tls": {
+    "enabled": true,
+    "server_name": "sub.divib.dynv6.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@V2ray_Alpha/",
+    "headers": {
+     "Host": "sub.divib.dynv6.net"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas9 § 8",
+   "server": "108.162.198.20",
+   "server_port": 8880,
+   "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@V2ray_Alpha/",
+    "headers": {
+     "Host": "reedfree8mahsang2.redorg.ir"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas11 § 9",
+   "server": "89.23.103.125",
+   "server_port": 42090,
+   "method": "chacha20-ietf-poly1305",
+   "password": "uQS5ntVqC00sSKkeNzUiD3"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas12 § 10",
+   "server": "92.118.205.228",
+   "server_port": 990,
+   "method": "chacha20-ietf-poly1305",
+   "password": "f8f7aCzcPKbsF8p3"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas13 § 11",
+   "server": "173.244.56.6",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas14 § 12",
+   "server": "89.23.103.125",
+   "server_port": 42090,
+   "method": "chacha20-ietf-poly1305",
+   "password": "uQS5ntVqC00sSKkeNzUiD3"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas15 § 13",
+   "server": "5.10.214.81",
+   "server_port": 8880,
+   "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@V2ray_Alpha",
+    "headers": {
+     "Host": "reedfree8mahsang2.redorg.ir"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas16 § 14",
+   "server": "172.187.105.25",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "1xO2cqPazqjGfCfd"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas17 § 15",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "185.176.24.159",
+   "server_port": 443,
+   "uuid": "0a506a60-ae3e-499d-9cbd-ab003f9f3f3b",
+   "tls": {
+    "enabled": true,
+    "server_name": "FREEDOm.ZiStarvInbioTeCh.ir",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "randomized"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@V2ray_Alpha/",
+    "headers": {
+     "Host": "freedom.zistarvinbiotech.ir"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas18 § 16",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "172.66.47.15",
+   "server_port": 443,
+   "uuid": "9368b093-d790-4096-9d8a-1265e82f9e2f",
+   "tls": {
+    "enabled": true,
+    "server_name": "GgGgr.PaGES.dEV",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "randomized"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/telegram@v2ray_alpha/",
+    "headers": {
+     "Host": "ggggr.pages.dev"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas19 § 17",
+   "server": "216.173.70.187",
+   "server_port": 57456,
+   "method": "chacha20-ietf-poly1305",
+   "password": "a58fa62b4944ddbf"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas20 § 18",
+   "server": "173.244.56.6",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas21 § 19",
+   "server": "45.80.111.147",
+   "server_port": 80,
+   "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@V2ray_Alpha/",
+    "headers": {
+     "Host": "reedfree8mahsang2.redorg.ir"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas22 § 20",
+   "server": "series-a1.samanehha.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "W74XFALLLuw6m5IA"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas23 § 21",
+   "server": "141.101.120.38",
+   "server_port": 8080,
+   "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@Filter_breaker/",
+    "headers": {
+     "Host": "1750293123492.china.baidu.bilibili.china.aeko.cn"
+    },
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas24 § 22",
+   "server": "23.177.185.63",
+   "server_port": 49454,
+   "method": "chacha20-ietf-poly1305",
+   "password": "6qsUiT6fbV8JzhXbyChyf0"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas25 § 23",
+   "server": "85.133.202.69",
+   "server_port": 54209,
+   "method": "2022-blake3-aes-256-gcm",
+   "password": "tPEhkilj56PpdrxnYyxUGx2CLgsEnkW8diyNsksiFCc=:m5t+cAgRisZiKRWthGFmLyd5AGU4bp8EA2SuCRLiRVc="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas26 § 24",
+   "server": "h110vpntr.outlinekeys.net",
+   "server_port": 65262,
+   "method": "chacha20-ietf-poly1305",
+   "password": "4Qe2wOziHGpNPeQ5DDgmd3"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas27 § 25",
+   "server": "it.panelmarzban.com",
+   "server_port": 3037,
+   "uuid": "a0a3e34d-87e4-4ff3-b04a-875c85325d62",
+   "tls": {
+    "enabled": true,
+    "server_name": "refersion.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas28 § 26",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "198.62.62.4",
+   "server_port": 443,
+   "uuid": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+   "tls": {
+    "enabled": true,
+    "server_name": "azadnet-7py.pages.dev",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI",
+    "headers": {
+     "Host": "azadnet-7py.pages.dev"
+    },
+    "max_early_data": 512,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas29 § 27",
+   "server": "47.243.126.92",
+   "server_port": 47381,
+   "uuid": "83e47814-bc89-4133-8e0d-1d59678249c4",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas30 § 28",
+   "server": "0ger.amazon-osishop.ir",
+   "server_port": 8880,
+   "uuid": "3afb0e5d-5c7f-40e9-9d02-046fbd4c87aa",
+   "transport": {
+    "type": "http",
+    "host": "/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas32 § 29",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+   "server_port": 8443,
+   "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+   "tls": {
+    "enabled": true,
+    "server_name": "IyFpLkXk10.jOoLaJoOlA.OrG",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "IyFpLkXk10.jOoLaJoOlA.OrG"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas33 § 30",
+   "server": "62.60.156.102",
+   "server_port": 80,
+   "uuid": "f0ab68c4-2391-4968-9cf2-dd8630e8cbb1",
+   "tls": {
+    "enabled": true,
+    "server_name": "digikala.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas34 § 31",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+   "server_port": 2096,
+   "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
+   "tls": {
+    "enabled": true,
+    "server_name": "Ft77Ta8Q1m.EmShAbKhObE.oRg",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "Ft77Ta8Q1m.EmShAbKhObE.oRg"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas35 § 32",
+   "server": "91.107.157.211",
+   "server_port": 443,
+   "uuid": "9767a982-d18d-4634-ad2b-c93489cbffae",
+   "transport": {
+    "type": "http",
+    "host": "exo.ir",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas36 § 33",
+   "server": "104.26.6.89",
+   "server_port": 80,
+   "uuid": "b360267f-81aa-4740-a9c0-9a64fe7f9775",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "onlytesla1.xz027.com"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas37 § 34",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+   "server_port": 8443,
+   "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+   "tls": {
+    "enabled": true,
+    "server_name": "IyFpLkXk10.jOoLaJoOlA.OrG",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "IyFpLkXk10.jOoLaJoOlA.OrG"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas38 § 35",
+   "server": "193.238.153.24",
+   "server_port": 31023,
+   "uuid": "68c99831-a708-4079-a70f-283ef7ae5e16",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas42 § 36",
+   "server": "5.10.214.123",
+   "server_port": 8880,
+   "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@server_free2/",
+    "headers": {
+     "Host": "reedfree8mahsang2.redorg.ir"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas43 § 37",
+   "server": "142.132.227.65",
+   "server_port": 80,
+   "uuid": "44781453-5f6c-43ab-8d6c-3bc4323311be",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "trojan",
+   "tag": "@HIDDIFY_plas44 § 38",
+   "server": "104.248.18.1",
+   "server_port": 1935,
+   "password": "6gZh2JbfhQ",
+   "tls": {
+    "enabled": true,
+    "server_name": "x1-germany-digitalocean-v2.devefun.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas45 § 39",
+   "server": "91.107.157.211",
+   "server_port": 443,
+   "uuid": "9767a982-d18d-4634-ad2b-c93489cbffae",
+   "transport": {
+    "type": "http",
+    "host": "exo.ir",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas46 § 40",
+   "server": "germany.playshoptv.com",
+   "server_port": 9090,
+   "uuid": "71b7cafa-7d98-4190-ae0f-6654886edd5b",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas47 § 41",
+   "server": "142.132.227.65",
+   "server_port": 80,
+   "uuid": "44781453-5f6c-43ab-8d6c-3bc4323311be",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas48 § 42",
+   "server": "germany.playshoptv.com",
+   "server_port": 9090,
+   "uuid": "71b7cafa-7d98-4190-ae0f-6654886edd5b",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas49 § 43",
+   "server": "series-a2.varzesh360.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "mps3FwmDjLrWaOVg"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas50 § 44",
+   "server": "89.23.103.125",
+   "server_port": 42090,
+   "method": "chacha20-ietf-poly1305",
+   "password": "uQS5ntVqC00sSKkeNzUiD3"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas51 § 45",
+   "server": "series-a1.samanehha.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "W74XFALLLuw6m5IA"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas52 § 46",
+   "server": "freakconfig13.felafel.org",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "1xO2cqPazqjGfCfd"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas53 § 47",
+   "server": "104.167.197.25",
+   "server_port": 57456,
+   "method": "chacha20-ietf-poly1305",
+   "password": "360e21d21977dc11"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas54 § 48",
+   "server": "213.109.147.242",
+   "server_port": 62685,
+   "method": "chacha20-ietf-poly1305",
+   "password": "VpKABcOpNNA0l5G2AVOmw8"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas55 § 49",
+   "server": "51.195.119.47",
+   "server_port": 1080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "qXvO7zYU7KeaB0Md7DQLow"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas56 § 50",
+   "server": "45.87.175.171",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "cvII85TrW6n0OGyfpHVS1u"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas57 § 51",
+   "server": "45.87.175.188",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "1RWwXhwfAB5gAEozU4G2Pg"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas58 § 52",
+   "server": "45.87.175.28",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas59 § 53",
+   "server": "154.205.159.100",
+   "server_port": 990,
+   "method": "chacha20-ietf-poly1305",
+   "password": "f8f7aCzcPKbsF8p3"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas60 § 54",
+   "server": "149.22.95.183",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas61 § 55",
+   "server": "45.87.175.171",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "cvII85TrW6n0OGyfpHVS1u"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas62 § 56",
+   "server": "freakconfig13.felafel.org",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "1xO2cqPazqjGfCfd"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas63 § 57",
+   "server": "6f.startrich.site",
+   "server_port": 8441,
+   "uuid": "310c8c17-6cd3-44eb-9ab0-f8f5dbac7976",
+   "transport": {
+    "type": "ws"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas64 § 58",
+   "server": "2f.startrich.site",
+   "server_port": 8441,
+   "uuid": "310c8c17-6cd3-44eb-9ab0-f8f5dbac7976",
+   "transport": {
+    "type": "ws"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas65 § 59",
+   "server": "9f.startrich.site",
+   "server_port": 8441,
+   "uuid": "310c8c17-6cd3-44eb-9ab0-f8f5dbac7976",
+   "transport": {
+    "type": "ws"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas66 § 60",
+   "server": "172.67.160.192",
+   "server_port": 2052,
+   "uuid": "mahanvpn-vip-chanel",
+   "transport": {
+    "type": "httpupgrade",
+    "path": "/mAhAnkarNanaNd.kouRdneTpluSedAte.iR,?ed=2560",
+    "headers": {
+     "Host": "mAhAnkarNanaNd.kouRdneTpluSedAte.iR."
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas67 § 61",
+   "server": "149.28.85.61",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas68 § 62",
+   "server": "207.148.105.235",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas69 § 63",
+   "server": "155.138.138.22",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas70 § 64",
+   "server": "65.20.82.136",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas71 § 65",
+   "server": "64.176.43.203",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas72 § 66",
+   "server": "95.179.168.220",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas73 § 67",
+   "server": "140.82.34.18",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas74 § 68",
+   "server": "64.176.57.109",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas75 § 69",
+   "server": "45.32.222.124",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas76 § 70",
+   "server": "149.248.54.111",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas77 § 71",
+   "server": "139.84.151.57",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas78 § 72",
+   "server": "45.32.37.132",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas79 § 73",
+   "server": "65.20.90.20",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas80 § 74",
+   "server": "207.246.113.180",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas81 § 75",
+   "server": "140.82.36.21",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas82 § 76",
+   "server": "149.28.245.133",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas83 § 77",
+   "server": "192.248.176.58",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas84 § 78",
+   "server": "149.28.141.192",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas85 § 79",
+   "server": "172.232.248.143",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas86 § 80",
+   "server": "149.28.144.95",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas87 § 81",
+   "server": "192.248.190.177",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas88 § 82",
+   "server": "45.63.89.212",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas89 § 83",
+   "server": "95.179.255.238",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas90 § 84",
+   "server": "95.179.170.91",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas91 § 85",
+   "server": "140.82.18.186",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas92 § 86",
+   "server": "45.76.159.118",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas93 § 87",
+   "server": "149.28.160.123",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas94 § 88",
+   "server": "45.32.184.22",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas95 § 89",
+   "server": "45.76.49.243",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas96 § 90",
+   "server": "172.235.251.158",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas97 § 91",
+   "server": "45.32.164.112",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas98 § 92",
+   "server": "108.160.134.232",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas99 § 93",
+   "server": "45.32.163.169",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas100 § 94",
+   "server": "70.34.216.116",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas101 § 95",
+   "server": "64.176.44.238",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas102 § 96",
+   "server": "149.28.173.42",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas103 § 97",
+   "server": "95.179.224.189",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas104 § 98",
+   "server": "45.77.0.121",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas105 § 99",
+   "server": "137.220.55.226",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas106 § 100",
+   "server": "45.76.76.154",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas107 § 101",
+   "server": "70.34.199.91",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas108 § 102",
+   "server": "139.180.197.178",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas109 § 103",
+   "server": "139.84.177.217",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas110 § 104",
+   "server": "149.28.163.140",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas111 § 105",
+   "server": "h110vpnch.outlinekeys.net",
+   "server_port": 4248,
+   "method": "chacha20-ietf-poly1305",
+   "password": "SasawZo4g7WaqlK3a2mCol"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas112 § 106",
+   "server": "h110vpnnl.outlinekeys.net",
+   "server_port": 52571,
+   "method": "chacha20-ietf-poly1305",
+   "password": "jXfsyaUTwZxGuaSLwIky3S"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas113 § 107",
+   "server": "h110vpntr.outlinekeys.net",
+   "server_port": 65262,
+   "method": "chacha20-ietf-poly1305",
+   "password": "4Qe2wOziHGpNPeQ5DDgmd3"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas114 § 108",
+   "server": "0ger.amazon-osishop.ir",
+   "server_port": 8880,
+   "uuid": "3afb0e5d-5c7f-40e9-9d02-046fbd4c87aa",
+   "transport": {
+    "type": "http",
+    "host": "/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas115 § 109",
+   "server": "104.26.6.89",
+   "server_port": 80,
+   "uuid": "b360267f-81aa-4740-a9c0-9a64fe7f9775",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "onlytesla1.xz027.com/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas116 § 110",
+   "server": "62.60.156.102",
+   "server_port": 80,
+   "uuid": "f0ab68c4-2391-4968-9cf2-dd8630e8cbb1",
+   "tls": {
+    "enabled": true,
+    "server_name": "digikala.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas117 § 111",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "198.62.62.4",
+   "server_port": 443,
+   "uuid": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+   "tls": {
+    "enabled": true,
+    "server_name": "azadnet-7py.pages.dev",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "randomized"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/azadnet-7py.pages.dev/?PROT_TYPE=vless",
+    "headers": {
+     "Host": "azadnet-7py.pages.dev"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas118 § 112",
+   "server": "172.67.73.216",
+   "server_port": 80,
+   "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram%F0%9F%87%A8%F0%9F%87%B3",
+    "headers": {
+     "Host": "reedfree8mahsang2.redorg.ir"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas119 § 113",
+   "server": "5.10.214.123",
+   "server_port": 8880,
+   "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@FarshidHUB2/",
+    "headers": {
+     "Host": "reedfree8mahsang2.redorg.ir"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas120 § 114",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "104.18.26.90",
+   "server_port": 2096,
+   "uuid": "760d1d5e-6696-49b6-aaed-a6411ccea8db",
+   "tls": {
+    "enabled": true,
+    "server_name": "638874929583581773.zagreb-prx-dnraaad.info",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/ikhocbws",
+    "headers": {
+     "Host": "638874929583581773.zagreb-prx-dnraaad.info"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas121 § 115",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "www.speedtest.net",
+   "server_port": 443,
+   "uuid": "0a506a60-ae3e-499d-9cbd-ab003f9f3f3b",
+   "tls": {
+    "enabled": true,
+    "server_name": "FREEDOm.ZiStarvInbioTeCh.ir",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "freedom.zistarvinbiotech.ir"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas122 § 116",
+   "server": "timoutyears.poshakazadegan.ir",
+   "server_port": 2095,
+   "uuid": "78ffd89f-c1e5-402b-a471-aae8e7217b90",
+   "transport": {
+    "type": "httpupgrade",
+    "path": "/",
+    "headers": {
+     "Host": "l你好吗你好吗cotea15你好吗lou你好吗你好吗a152rtkldcloud.poshakazadegan.ir"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas123 § 117",
+   "server": "45.87.175.22",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas124 § 118",
+   "server": "104.167.197.25",
+   "server_port": 57456,
+   "method": "chacha20-ietf-poly1305",
+   "password": "360e21d21977dc11"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas125 § 119",
+   "server": "144.126.146.38",
+   "server_port": 30789,
+   "method": "chacha20-ietf-poly1305",
+   "password": "8d73e088-dc5a-4dfe-8927-56351ee80407"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas126 § 120",
+   "server": "135.148.220.188",
+   "server_port": 443,
+   "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
+   "tls": {
+    "enabled": true,
+    "server_name": "147135001195.sec22org.com",
+    "alpn": [
+     "h2",
+     "http/1.1"
+    ],
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas129 § 121",
+   "server": "www.speedtest.net.cdn.cloudflare.net",
+   "server_port": 80,
+   "uuid": "323b04df-9596-4b4b-a0dc-27bec648e28f",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "NIce-APartMEnt.ZULAir.ORg"
+    },
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas130 § 122",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "104.26.6.89",
+   "server_port": 2096,
+   "uuid": "c948832c-8ba7-4e9b-92cc-1370d18e14ef",
+   "tls": {
+    "enabled": true,
+    "server_name": "ts13.xz027.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/DaeiXTesla",
+    "headers": {
+     "Host": "OnLyTesLaTg.xz027.com"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas131 § 123",
+   "server": "91.99.204.234",
+   "server_port": 443,
+   "uuid": "b033a808-59b2-4ac2-af21-6d6204d9abb6",
+   "transport": {
+    "type": "http",
+    "host": "exo.ir",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas132 § 124",
+   "server": "35.90.54.161",
+   "server_port": 443,
+   "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "store.steampowered.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+     "short_id": "a4844ba7"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas133 § 125",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+   "server_port": 2096,
+   "uuid": "752811df-c191-4f5f-acaa-ce6399a22024",
+   "tls": {
+    "enabled": true,
+    "server_name": "638879413057214934.kish-prx-dnraaad.info",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/lpiipkws",
+    "headers": {
+     "Host": "638879413057214934.kish-prx-dnraaad.info"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas134 § 126",
+   "server": "188.245.119.163",
+   "server_port": 443,
+   "uuid": "0caed718-9b65-40c8-873d-7d7236ff3e75",
+   "transport": {
+    "type": "http",
+    "host": "exo.ir",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas135 § 127",
+   "server": "142.132.227.65",
+   "server_port": 33036,
+   "uuid": "d2a82195-d43d-4534-959a-89411c127f75",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas136 § 128",
+   "server": "91.99.95.198",
+   "server_port": 40994,
+   "uuid": "dc22ae23-a60f-45eb-b91b-6e3d547fe0b0",
+   "transport": {
+    "type": "http",
+    "host": "exo.ir",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas137 § 129",
+   "server": "91.99.178.3",
+   "server_port": 51615,
+   "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
+   "transport": {
+    "type": "http",
+    "host": "zula.ir",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas138 § 130",
+   "server": "91.99.171.104",
+   "server_port": 443,
+   "uuid": "029d527b-1a84-4f3a-b80b-4c2c1e6c0c06",
+   "transport": {
+    "type": "http",
+    "host": "exo.ir",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "trojan",
+   "tag": "@HIDDIFY_plas139 § 131",
+   "server": "35.180.240.183",
+   "server_port": 443,
+   "password": "3763495894587285504",
+   "tls": {
+    "enabled": true,
+    "server_name": "honest-cow.goat627.mom",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas140 § 132",
+   "server": "104.16.53.11",
+   "server_port": 80,
+   "uuid": "0601ffa4-b613-45ea-ac15-2834bccc948a",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "breeZy-AdvIce.onEEat.CO."
+    },
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas141 § 133",
+   "server": "www.speedtest.net.cdn.cloudflare.net",
+   "server_port": 80,
+   "uuid": "6b3b071f-096b-4e4c-8d70-0e0b53f27434",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "VAST-RAdIo.zuLAIR.oRG"
+    },
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas144 § 134",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "104.19.99.250",
+   "server_port": 443,
+   "uuid": "8df60790-c903-4661-b85d-64c0009378e5",
+   "tls": {
+    "enabled": true,
+    "server_name": "F1.paRsa.fiLegEar-Sg.Me",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "f1.parsa.filegear-sg.me"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas145 § 135",
+   "server": "13.212.218.130",
+   "server_port": 443,
+   "uuid": "cd54a584-2aeb-4a81-8558-84822c5e60d1",
+   "tls": {
+    "enabled": true,
+    "server_name": "store.steampowered.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "J2bRPBQbUXzfoe-sch7fxMlzKqaX2L0kEm4Rcly6Kgo",
+     "short_id": "d0c43a7737"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas146 § 136",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "198.62.62.4",
+   "server_port": 443,
+   "uuid": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+   "tls": {
+    "enabled": true,
+    "server_name": "azadnet-7py.pages.dev",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI",
+    "headers": {
+     "Host": "azadnet-7py.pages.dev"
+    },
+    "max_early_data": 512,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas147 § 137",
+   "server": "198.13.63.156",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas149 § 138",
+   "server": "38.107.234.38",
+   "server_port": 57456,
+   "method": "chacha20-ietf-poly1305",
+   "password": "a58fa62b4944ddbf"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas150 § 139",
+   "server": "94.159.96.245",
+   "server_port": 11902,
+   "method": "chacha20-ietf-poly1305",
+   "password": "bTKEnDWXzIidkKLj9WuJK3"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas151 § 140",
+   "server": "147.45.114.160",
+   "server_port": 45651,
+   "method": "chacha20-ietf-poly1305",
+   "password": "PlmYeAH5uIkG7zynBgKyLB"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas152 § 141",
+   "server": "54.238.207.188",
+   "server_port": 8319,
+   "method": "chacha20-ietf-poly1305",
+   "password": "ljqdalu13.."
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas153 § 142",
+   "server": "series-a2.samanehha.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "W74XFALLLuw6m5IA"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas154 § 143",
+   "server": "series-a2.samanehha.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "mps3FwmDjLrWaOVg"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas155 § 144",
+   "server": "rusrv.vpnsparta.pro",
+   "server_port": 57456,
+   "method": "chacha20-ietf-poly1305",
+   "password": "360e21d21977dc11"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas156 § 145",
+   "server": "host.phonygilson.icu",
+   "server_port": 49072,
+   "method": "chacha20-ietf-poly1305",
+   "password": "25WsDeXTUDXAZTEQ7TeHt9D4vkaHR6VbfkFRmutDiCJk6NQoeguUGciCX8JZiKUqiJm8JrJZzqYmDd194BVcnnuJu5rtvwoe"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas157 § 146",
+   "server": "ct.uigame.space",
+   "server_port": 2024,
+   "method": "chacha20-ietf-poly1305",
+   "password": "33LpoU8X/xHnCD+cbNe+7p0pK/JngDLM+5+RILrxyfVFRW/niKz5Eu0rWyVcDho="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas158 § 147",
+   "server": "131.145.33.92",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "1xO2cqPazqjGfCfd"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas159 § 148",
+   "server": "4.159.229.11",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "Bog0ELmMM9DSxDdQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas160 § 149",
+   "server": "172.187.109.127",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "WstuSnlu4ieA9M0L"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas161 § 150",
+   "server": "172.187.109.127",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "AcGFEsMR6c07Txux"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas162 § 151",
+   "server": "181.119.30.20",
+   "server_port": 990,
+   "method": "chacha20-ietf-poly1305",
+   "password": "f8f7aCzcPKbsF8p3"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas163 § 152",
+   "server": "103.15.91.171",
+   "server_port": 52327,
+   "method": "aes-256-gcm",
+   "password": "atjgsJXmcv"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas164 § 153",
+   "server": "89.23.103.229",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "pVnTzYAqXEHw"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas165 § 154",
+   "server": "213.109.147.242",
+   "server_port": 62685,
+   "method": "chacha20-ietf-poly1305",
+   "password": "VpKABcOpNNA0l5G2AVOmw8"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas166 § 155",
+   "server": "154.44.15.133",
+   "server_port": 44642,
+   "method": "aes-256-gcm",
+   "password": "iHapGY8XoW"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas167 § 156",
+   "server": "167.172.89.195",
+   "server_port": 8575,
+   "method": "chacha20-ietf-poly1305",
+   "password": "uewxc4bF87Gb2hJWtbMyt1"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas168 § 157",
+   "server": "128.199.236.104",
+   "server_port": 57384,
+   "method": "chacha20-ietf-poly1305",
+   "password": "wcI8DZe0eXSS3upop1QjVB"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas169 § 158",
+   "server": "173.244.56.6",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas170 § 159",
+   "server": "167.172.85.14",
+   "server_port": 21964,
+   "method": "chacha20-ietf-poly1305",
+   "password": "UBvx4diZlSrPzl9hPLT2QU"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas171 § 160",
+   "server": "216.173.70.187",
+   "server_port": 57456,
+   "method": "chacha20-ietf-poly1305",
+   "password": "a58fa62b4944ddbf"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas172 § 161",
+   "server": "92.118.205.228",
+   "server_port": 990,
+   "method": "chacha20-ietf-poly1305",
+   "password": "f8f7aCzcPKbsF8p3"
+  },
+  {
+   "type": "hysteria2",
+   "tag": "@HIDDIFY_plas173 § 162",
+   "server": "18.136.211.127",
+   "server_port": 14933,
+   "password": "yoP8tOtEhMTSBUPY9LwnHABvFE",
+   "tls": {
+    "enabled": true,
+    "server_name": "bing.com",
+    "insecure": true
+   }
+  },
+  {
+   "type": "hysteria2",
+   "tag": "@HIDDIFY_plas174 § 163",
+   "server": "13.250.121.168",
+   "server_port": 29713,
+   "password": "JSC7GnvDM4mIitnCZXQo8IKSPs",
+   "tls": {
+    "enabled": true,
+    "server_name": "bing.com",
+    "insecure": true
+   }
+  },
+  {
+   "type": "hysteria2",
+   "tag": "@HIDDIFY_plas175 § 164",
+   "server": "54.212.32.103",
+   "server_port": 21779,
+   "password": "hfWoFliBzz7DzJ4AhSrCpNsiw",
+   "tls": {
+    "enabled": true,
+    "server_name": "bing.com",
+    "insecure": true
+   }
+  },
+  {
+   "type": "hysteria2",
+   "tag": "@HIDDIFY_plas176 § 165",
+   "server": "45.207.222.138",
+   "server_port": 8888,
+   "password": "nfsn666",
+   "tls": {
+    "enabled": true,
+    "server_name": "hk.nfsn666.gq",
+    "insecure": true
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas177 § 166",
+   "server": "95.179.224.189",
+   "server_port": 443,
+   "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas179 § 167",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "www.speedtest.net",
+   "server_port": 2096,
+   "uuid": "00b4785b-6ae1-496c-ad87-9dc4f89b7b3e",
+   "tls": {
+    "enabled": true,
+    "server_name": "638868951946668359.amsterdam-prx-dnraaal.info",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/gflzprws",
+    "headers": {
+     "Host": "638868951946668359.amsterdam-prx-dnraaal.info"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas181 § 168",
+   "server": "Host.iranservers.space",
+   "server_port": 1020,
+   "uuid": "ac2a2fca-5477-49d3-b419-9da98032607e",
+   "tls": {
+    "enabled": true,
+    "server_name": "eset.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "fInGVxoPLyML5AI8QonrXDCozxPVzIHNY1SRKnsRjBc",
+     "short_id": "8b"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas182 § 169",
+   "server": "45.80.111.147",
+   "server_port": 80,
+   "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@V2ray_Alpha/",
+    "headers": {
+     "Host": "reedfree8mahsang2.redorg.ir"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas183 § 170",
+   "server": "all97-vip.f-sub.com",
+   "server_port": 1517,
+   "uuid": "240052ac-0bf0-481f-adb4-f40a259fc189",
+   "transport": {
+    "type": "http",
+    "host": "varzesh3.com/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas184 § 171",
+   "server": "193.228.139.250",
+   "server_port": 1080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "yrZtUElGhL8xfeaN0hIIzQ"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas185 § 172",
+   "server": "5.10.214.81",
+   "server_port": 8880,
+   "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@V2ray_Alpha",
+    "headers": {
+     "Host": "reedfree8mahsang2.redorg.ir"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas186 § 173",
+   "server": "www.speedtest.net",
+   "server_port": 2095,
+   "uuid": "49f10318-3e61-462b-b57d-0bfa25b77d94",
+   "transport": {
+    "type": "ws",
+    "path": "/hajmi?*aiojefoijeafiojaoifjoaijfoieajfea4502542---452525252525082850924520759275942592429465265926359832oiejfiaoiefoieaioaeoifiofeaiofeiofeoijeoijfaeoifja7773422834798732498327498huafuawugfuayufu476942652?ed=2050/?JOKERRVPNBIA_CHANEL@JOKERRVPN",
+    "headers": {
+     "Host": "dbe661d5a761ff6c.s-5HU09JDF-97SHS.WWWrubika.irto.xn--ls8haaaaaaaaaaaaaaaaaa.la.which.xn--ls8haaaaaaaaaaaaaaaaaa.xn-ls8faaaaaaaaaa.speedtest.net.google.com.eu.ir.nl.aparat.com.komak.IR.Nb-Fi.85858599.xYz."
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas187 § 174",
+   "server": "netvip.31111111.ir",
+   "server_port": 53201,
+   "uuid": "3f6e5bc6-8ae1-4158-9b35-6c0c49c4c786",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas188 § 175",
+   "server": "www.speedtest.net",
+   "server_port": 2095,
+   "uuid": "49f10318-3e61-462b-b57d-0bfa25b77d94",
+   "transport": {
+    "type": "ws",
+    "path": "/hajmi?ed=2050/?JOKERRVPNBIA_CHANEL@JOKERRVPN",
+    "headers": {
+     "Host": "dbe661d5a761ff6c.s-5HU09JDF-97SHS.WWWrubika.irto.xn--ls8haaaaaaaaaaaaaaaaaa.la.which.xn--ls8haaaaaaaaaaaaaaaaaa.xn-ls8faaaaaaaaaa.speedtest.net.google.com.eu.ir.nl.aparat.com.komak.IR.Nb-De.85858599.xYz."
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas189 § 176",
+   "server": "dest.realtechshop.top",
+   "server_port": 666,
+   "uuid": "ff8fffd7-3546-488b-a5f2-a74896da74a2",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas191 § 177",
+   "server": "141.101.121.108",
+   "server_port": 8080,
+   "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "1750293123492.china.baidu.bilibili.china.aeko.cn"
+    },
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas192 § 178",
+   "server": "85.133.202.69",
+   "server_port": 54209,
+   "method": "2022-blake3-aes-256-gcm",
+   "password": "tPEhkilj56PpdrxnYyxUGx2CLgsEnkW8diyNsksiFCc=:m5t+cAgRisZiKRWthGFmLyd5AGU4bp8EA2SuCRLiRVc="
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas193 § 179",
+   "server": "real-all2.sdcards.ir",
+   "server_port": 8509,
+   "uuid": "46677716-490d-4a51-8a68-c44090505da3",
+   "tls": {
+    "enabled": true,
+    "server_name": "tgju.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "LD--N4X5Fo6UKi8c6XIUGfFCuRWKmvLHk_bwacZVDD4",
+     "short_id": "67ceba05200e42df"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas194 § 180",
+   "server": "89.23.103.125",
+   "server_port": 42090,
+   "method": "chacha20-ietf-poly1305",
+   "password": "uQS5ntVqC00sSKkeNzUiD3"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas195 § 181",
+   "server": "canine.origamimarketings.com",
+   "server_port": 9999,
+   "uuid": "e96adc51-70f2-451d-83c5-77094b9d680f",
+   "tls": {
+    "enabled": true,
+    "server_name": "tgju.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E",
+     "short_id": "42c0b628ba6a42a9"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas196 § 182",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "www.speedtest.net",
+   "server_port": 443,
+   "uuid": "c55ef976-d9f5-41d9-8bfb-c57853a66327",
+   "tls": {
+    "enabled": true,
+    "server_name": "skYNet.ZIStArviNBiOtEch.Ir",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "randomized"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/qp8ihoxMLXPfQWaw",
+    "headers": {
+     "Host": "skynet.zistarvinbiotech.ir"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas197 § 183",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+   "server_port": 2096,
+   "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
+   "tls": {
+    "enabled": true,
+    "server_name": "Ft77Ta8Q1m.EmShAbKhObE.oRg",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "Ft77Ta8Q1m.EmShAbKhObE.oRg"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas198 § 184",
+   "server": "5.10.214.123",
+   "server_port": 8880,
+   "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram@FarshidHUB2/",
+    "headers": {
+     "Host": "reedfree8mahsang2.redorg.ir"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas199 § 185",
+   "server": "194.87.31.68",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "R2UGad61FGO5"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas201 § 186",
+   "server": "ca.opensocks.site",
+   "server_port": 8388,
+   "method": "chacha20-ietf-poly1305",
+   "password": "OTc3Z"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas202 § 187",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "www.speedtest.net",
+   "server_port": 443,
+   "uuid": "0a506a60-ae3e-499d-9cbd-ab003f9f3f3b",
+   "tls": {
+    "enabled": true,
+    "server_name": "FREEDOm.ZiStarvInbioTeCh.ir",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "randomized"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/Tel-@AZADIIIVPN/",
+    "headers": {
+     "Host": "freedom.zistarvinbiotech.ir"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas203 § 188",
+   "server": "141.101.121.243",
+   "server_port": 8080,
+   "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "1750293123492.china.baidu.bilibili.china.aeko.cn"
+    },
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas204 § 189",
+   "server": "turboo-server-bot.aftabz.com",
+   "server_port": 8080,
+   "uuid": "92c79723-eb54-4c48-bb81-83423a0e6440",
+   "tls": {
+    "enabled": true,
+    "server_name": "tgju.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "zLBoalJcQIgIUcegIx0_cCEBvAMJxIbotJA6y50CVHg",
+     "short_id": "3bf4f5"
+    }
+   },
+   "transport": {
+    "type": "grpc",
+    "idle_timeout": "15s",
+    "ping_timeout": "15s"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas205 § 190",
+   "server": "213.109.147.242",
+   "server_port": 62685,
+   "method": "chacha20-ietf-poly1305",
+   "password": "VpKABcOpNNA0l5G2AVOmw8"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas206 § 191",
+   "server": "216.173.70.187",
+   "server_port": 57456,
+   "method": "chacha20-ietf-poly1305",
+   "password": "a58fa62b4944ddbf"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas207 § 192",
+   "server": "series-a2.varzesh360.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "mps3FwmDjLrWaOVg"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas209 § 193",
+   "server": "188.114.98.224",
+   "server_port": 80,
+   "uuid": "a43ecdaf-c1e9-44f6-bbd9-1c113cb7d48f",
+   "transport": {
+    "type": "ws",
+    "headers": {
+     "Host": "q6.19kalA.co"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas210 § 194",
+   "server": "easrtvisufs.selenarahmani.blog",
+   "server_port": 17861,
+   "uuid": "a05f7f5b-374d-4255-a70d-a62869cd7d45",
+   "tls": {
+    "enabled": true,
+    "server_name": "speedtest.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "CK4NZOZ03AjWzK4gAs5hXyUfghXepouBPfqJct0KUwQ",
+     "short_id": "da"
+    }
+   },
+   "transport": {
+    "type": "grpc",
+    "service_name": "TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-TELEGRAM-SellofVPN-",
+    "idle_timeout": "15s",
+    "ping_timeout": "15s"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas211 § 195",
+   "server": "1conf.top",
+   "server_port": 3333,
+   "uuid": "7d283c1a-3a5b-4b2a-a924-0bd256e89726",
+   "transport": {
+    "type": "http",
+    "path": "/",
+    "method": "GET"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas212 § 196",
+   "server": "start.adsplustnet.com",
+   "server_port": 80,
+   "uuid": "c6ac1649-5dc5-4d45-8977-9805d639d30b",
+   "transport": {
+    "type": "ws",
+    "path": "/test=true",
+    "headers": {
+     "Host": "d1.hetzner.com"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas213 § 197",
+   "server": "admin.c4.webramz.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "69MUii7VDwMqh7Hz"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas214 § 198",
+   "server": "147.185.161.229",
+   "server_port": 80,
+   "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+   "transport": {
+    "type": "ws",
+    "path": "/Telegram:@ShadowProxy66/",
+    "headers": {
+     "Host": "uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas215 § 199",
+   "server": "172.67.67.92",
+   "server_port": 80,
+   "uuid": "f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "delam.ahaysiahzangi.dpdns.org"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas216 § 200",
+   "server": "104.16.104.151",
+   "server_port": 80,
+   "uuid": "1f431db3-1918-4e7b-a855-c93485e11694",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "pari.parinazz.dpdns.org"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas217 § 201",
+   "server": "172.67.128.105",
+   "server_port": 80,
+   "uuid": "4179c595-08ca-45cd-b555-91b6f1faeadc",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "di.dibdibini.dpdns.org"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas218 § 202",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "172.67.49.134",
+   "server_port": 443,
+   "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+   "tls": {
+    "enabled": true,
+    "server_name": "rc.ylks0033.dpdns.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "rc.ylks0033.dpdns.org"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas219 § 203",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "188.114.99.16",
+   "server_port": 2053,
+   "uuid": "54f6e78c-b497-4db7-ba48-38c4cf81d5ef",
+   "tls": {
+    "enabled": true,
+    "server_name": "019309B7.XyZ0.PaGeS.dEV",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/yzejftqqvmhtztle",
+    "headers": {
+     "Host": "019309B7.XyZ0.PaGeS.dEV"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas220 § 204",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "zula.ir",
+   "server_port": 443,
+   "uuid": "172ed5fd-83a6-469e-863c-50e251a6c17d",
+   "tls": {
+    "enabled": true,
+    "server_name": "rayan-supra.parisa.dpdns.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "rayan-supra.parisa.dpdns.org"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas221 § 205",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "162.159.129.67",
+   "server_port": 8443,
+   "uuid": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+   "tls": {
+    "enabled": true,
+    "server_name": "azadnet1-706.pages.dev",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "randomized"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/azadnet1-706.pages.dev/?PROT_TYPE=vless",
+    "headers": {
+     "Host": "azadnet1-706.pages.dev"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas222 § 206",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "104.18.29.253",
+   "server_port": 443,
+   "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
+   "tls": {
+    "enabled": true,
+    "server_name": "kawaiifreevpn-7ds.pages.dev",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "random"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "kawaiifreevpn-7ds.pages.dev"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas223 § 207",
+   "server": "series-a2.samanehha.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "mps3FwmDjLrWaOVg"
+  },
+  {
+   "type": "vless",
+   "tag": "@HIDDIFY_plas224 § 208",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "1-500",
+    "sleep": "0-500"
+   },
+   "server": "172.67.145.189",
+   "server_port": 2083,
+   "uuid": "ec7a6b6d-94b6-45df-9d62-491f53a508be",
+   "tls": {
+    "enabled": true,
+    "server_name": "FrEEdoM.pAnOtOSU.sTORe",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/6fqYRq6DD1shcFIO/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=",
+    "headers": {
+     "Host": "freedom.panotosu.store"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas225 § 209",
+   "server": "admin.c1.webramz.co",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "1xO2cqPazqjGfCfd"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "@HIDDIFY_plas226 § 210",
+   "server": "freakconfig13.felafel.org",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "1xO2cqPazqjGfCfd"
+  }
+ ]
+}
