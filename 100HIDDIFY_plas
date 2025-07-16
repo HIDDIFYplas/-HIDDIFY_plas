@@ -1,6 +1,6 @@
 //profile-title: کانال تلگرامی ما € ( @HIDDIFY_plas ) € برای کانفیگ های بیشتر جوین شو
 //profile-update-interval: 1
-//subscription-userinfo: upload=650000000; download=900000000; total=1789529542; expire=1753100000
+//subscription-userinfo: upload=705000000; download=1000000000; total=1789529542; expire=1753100000
 
 {
   "log": {
@@ -123,8 +123,8 @@
         "2606:4700:110:8c30:8076:64b2:ca78:8816/128"
       ],
       "private_key": "IAxTQgNiSo3Wc5HyC9P+OJB35sIW7UFhkP5WqqjeJEA=",
-      "server": "188.114.97.3",
-      "server_port": 4233,
+      "server": "888.554.77.9",
+      "server_port": 4993,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "2Sy/",
       "mtu": 1330
@@ -137,8 +137,8 @@
         "2606:4700:110:8206:3a83:76a8:3fad:9c5d/128"
       ],
       "private_key": "MNmrA90lr2U2ApTGzb56/UqGS4MdABh3eokXq7bPXXs=",
-      "server": "188.114.98.241",
-      "server_port": 894,
+      "server": "668.177.55.541",
+      "server_port": 664,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "x9zQ",
       "mtu": 1330
@@ -151,8 +151,8 @@
         "2606:4700:110:810e:de26:8b59:5886:aaaf/128"
       ],
       "private_key": "8BYj8S86KfizTAUFC0fNRY2OXbCz9Hu4QleIyTJ07Ek=",
-      "server": "188.114.98.211",
-      "server_port": 955,
+      "server": "385.614.89.212",
+      "server_port": 565,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "p0c8",
       "mtu": 1330
@@ -165,8 +165,8 @@
         "2606:4700:110:8948:d8ce:4d9a:c15a:c66c/128"
       ],
       "private_key": "cKr3GTH3vjJOeXQ0Q3n9jHoUB/6tfKOqLVJPFsqJIXs=",
-      "server": "162.159.195.171",
-      "server_port": 7152,
+      "server": "332.229.415.711",
+      "server_port": 7865,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "RSFR",
       "mtu": 1330
