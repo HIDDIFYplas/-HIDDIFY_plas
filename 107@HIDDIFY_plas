@@ -1,0 +1,391 @@
+//profile-title: کانال تلگرامی ما*💻[𝗛𝗜𝗗𝗗𝗜𝗙𝗬_𝗽𝗹𝗮𝘀]💻*برای کانفیگ های بیشتر جوین شو
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=111000000000; expire=1759000000
+{
+  "log": {
+    "level": "warn",
+    "output": "box.log",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "address": "udp://1.1.1.1",
+        "address_resolver": "dns-direct"
+      },
+      {
+        "tag": "dns-trick-direct",
+        "address": "https://sky.rethinkdns.com/",
+        "detour": "direct-fragment"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "1.1.1.1",
+        "address_resolver": "dns-local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-local",
+        "address": "local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": "tencent-app.baipiao0721-dns78655.eu",
+        "server": "dns-direct"
+      },
+      {
+        "domain": "cp.cloudflare.com",
+        "server": "dns-remote",
+        "rewrite_ttl": 3000
+      }
+    ],
+    "final": "dns-remote",
+    "static_ips": {
+      "sky.rethinkdns.com": [
+        "188.114.96.3",
+        "188.114.97.3",
+        "2a06:98c1:3120::3",
+        "2a06:98c1:3121::3",
+        "104.17.147.22",
+        "104.17.148.22",
+        "104.18.0.48",
+        "104.18.1.48",
+        "2606:4700::6812:30",
+        "2606:4700::6812:130"
+      ]
+    },
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "mtu": 9000,
+      "inet4_address": "172.19.0.1/28",
+      "auto_route": true,
+      "strict_route": true,
+      "endpoint_independent_nat": true,
+      "stack": "mixed",
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 2334,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "127.0.0.1",
+      "listen_port": 6450
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "@HIDDIFY_plas1：100.46 GB",
+        "@HIDDIFY_plas2：28 天",
+        "@HIDDIFY_plas3：2025-09-21",
+        "🇺🇸@HIDDIFY_plas4",
+        "🇺🇸@HIDDIFY_plas5",
+        "🇭🇰@HIDDIFY_plas6",
+        "🇯🇵@HIDDIFY_plas7",
+        "🇰🇷@HIDDIFY_plas8",
+        "🇳🇱@HIDDIFY_plas9",
+        "@HIDDIFY_plas10：nekocloud.qzz.io",
+        "@HIDDIFY_plas11：t.me/NekoCloud1"
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "@HIDDIFY_plas1：100.46 GB",
+        "@HIDDIFY_plas2：28 天",
+        "@HIDDIFY_plas3：2025-09-21",
+        "🇺🇸@HIDDIFY_plas4",
+        "🇺🇸@HIDDIFY_plas5",
+        "🇭🇰@HIDDIFY_plas6",
+        "🇯🇵@HIDDIFY_plas7",
+        "🇰🇷@HIDDIFY_plas8",
+        "🇳🇱@HIDDIFY_plas9",
+        "@HIDDIFY_plas10：nekocloud.qzz.io",
+        "@HIDDIFY_plas11：t.me/NekoCloud1"
+      ],
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
+      "interval": "10m0s",
+      "idle_timeout": "1h40m0s"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas1：100.46 GB",
+      "server": "107.172.50.179",
+      "server_port": 2053,
+      "obfs": {
+        "type": "salamander",
+        "password": "VFq8tvsToD0vFx7A"
+      },
+      "password": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas2：28 天",
+      "server": "107.172.50.179",
+      "server_port": 2053,
+      "obfs": {
+        "type": "salamander",
+        "password": "VFq8tvsToD0vFx7A"
+      },
+      "password": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas3：2025-09-21",
+      "server": "107.172.50.179",
+      "server_port": 2053,
+      "obfs": {
+        "type": "salamander",
+        "password": "VFq8tvsToD0vFx7A"
+      },
+      "password": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸@HIDDIFY_plas4",
+      "server": "107.172.50.179",
+      "server_port": 2053,
+      "obfs": {
+        "type": "salamander",
+        "password": "VFq8tvsToD0vFx7A"
+      },
+      "password": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸@HIDDIFY_plas5",
+      "server": "107.175.32.216",
+      "server_port": 2053,
+      "obfs": {
+        "type": "salamander",
+        "password": "o2RF1kccTQ6kPbTm"
+      },
+      "password": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰@HIDDIFY_plas6",
+      "server": "45.149.92.115",
+      "server_port": 2053,
+      "obfs": {
+        "type": "salamander",
+        "password": "oIn1MW6nFGpgamNS"
+      },
+      "password": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇯🇵@HIDDIFY_plas7",
+      "server": "212.192.221.219",
+      "server_port": 2053,
+      "obfs": {
+        "type": "salamander",
+        "password": "pGXyfZ1zxQq5BnZg"
+      },
+      "password": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇰🇷@HIDDIFY_plas8",
+      "server": "203.32.26.41",
+      "server_port": 2053,
+      "obfs": {
+        "type": "salamander",
+        "password": "M1LjTmQTpqHbD8v8"
+      },
+      "password": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱@HIDDIFY_plas9",
+      "server": "tencent-app.baipiao0721-dns78655.eu",
+      "server_port": 443,
+      "uuid": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl01.kittycdn.pp.ua",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "nl01.kittycdn.pp.ua"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas10：nekocloud.qzz.io",
+      "server": "tencent-app.baipiao0721-dns78655.eu",
+      "server_port": 443,
+      "uuid": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl01.kittycdn.pp.ua",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "nl01.kittycdn.pp.ua"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas11：t.me/NekoCloud1",
+      "server": "tencent-app.baipiao0721-dns78655.eu",
+      "server_port": 443,
+      "uuid": "38d1f28e-2f8a-4025-aa9f-0f45c39a9fef",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl01.kittycdn.pp.ua",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "nl01.kittycdn.pp.ua"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "1-500",
+        "sleep": "0-500"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "select"
+      }
+    ],
+    "final": "select",
+    "auto_detect_interface": true,
+    "override_android_vpn": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "clash.db"
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:6756",
+      "secret": "fcZ1WrL4isikq2ZN"
+    }
+  }
+}
