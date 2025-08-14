@@ -1,4 +1,4 @@
-//profile-title: کانال تلگرامی ما*🎯[hiddifyvip]🎯*برای کانفیگ های بیشتر جوین شو
+//profile-title: کانال تلگرامی ما*⚓[hiddifyvip]⚓*برای کانفیگ های بیشتر جوین شو
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=101000000000; expire=1759000000
 
@@ -60,14 +60,6 @@ ssconf://ainita.s3.eu-north-1.amazonaws.com/AinitaServer-1.csv#@hiddifyvip55
 ssconf://ainita.s3.eu-north-1.amazonaws.com/AinitaServer-2.csv#@hiddifyvip56
 ssconf://ainita.s3.eu-north-1.amazonaws.com/AinitaServer-3.csv#@hiddifyvip57
 ssconf://ainita.s3.eu-north-1.amazonaws.com/AinitaServer-4.csv#@hiddifyvip58
-warp://p1@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m4&&detour=warp://p2@188.114.97.170:894#@hiddifyvip59
-warp://p1@auto?ifpm=m4#LocalIP&&detour=warp://p2@auto#@hiddifyvip60
-warp://auto?ifp=10-20&ifps=40-100&ifpd=10-20#@hiddifyvip61
-warp://auto?ifp=10-20&ifps=40-100&ifpd=30-200#@hiddifyvip62
-warp://auto?ifp=10-20&ifps=40-100&ifpd=300-500#@hiddifyvip63
-warp://auto?ifp=5-10&ifps=40-100&ifpd=10-20#@hiddifyvip64
-warp://auto?ifp=5-10&ifps=40-100&ifpd=30-50#@hiddifyvip65
-warp://auto?ifp=5-10&ifps=40-100&ifpd=300-500#@hiddifyvip66
 vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@202.85.53.160:7000?encryption=none&security=tls&sni=edgb.esslh.filegear-sg.me&alpn=h3&fp=random&type=ws&host=edgb.esslh.filegear-sg.me&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#@hiddifyvip67
 trojan://Aimer@14.46.199.74:50000?security=tls&sni=epgb.aimercc.dpdns.org&fp=chrome&allowInsecure=1&type=ws&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#@hiddifyvip68
 trojan://Aimer@59.19.192.51:38880?security=tls&sni=epgb.aimercc.dpdns.org&alpn=h3&fp=randomized&allowInsecure=1&type=ws&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#@hiddifyvip69
