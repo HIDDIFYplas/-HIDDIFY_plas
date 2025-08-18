@@ -1,0 +1,1521 @@
+//profile-title: کانال تلگرامی ما*📊[@𝗛𝗜𝗗𝗗𝗜𝗙𝗬_𝗽𝗹𝗮𝘀]📊*برای کانفیگ های بیشتر جوین شو
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=121000000000; expire=1759000000
+{
+  "outbounds": [
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 0",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 1",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 2",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 3",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 4",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 5",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 6",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 7",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 8",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 9",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 10",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 11",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 12",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 13",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 14",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 15",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 16",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 17",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 18",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 19",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 20",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 21",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 22",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 23",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 24",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 25",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 26",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 27",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 28",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 29",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 30",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 31",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 32",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 33",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 34",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 35",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 36",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 37",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 38",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 39",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 40",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 41",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 42",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 43",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 44",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 45",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 46",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 47",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 48",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 49",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 50",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 51",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 52",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 53",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 54",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 55",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 56",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 57",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 58",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 59",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 60",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 61",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 62",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 63",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 64",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 65",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 66",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 67",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 68",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 69",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 70",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 71",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 72",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 73",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 74",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr01s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 75",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 76",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 77",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr02s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 78",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 79",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 80",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr03s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 81",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 82",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "کانال تلگرامی ما HIDDIFY_plas@ § 83",
+      "server": "3a9a22.4b63a66b.cyou",
+      "server_port": 80,
+      "uuid": "f956ef2d-bd63-4a20-ae5d-2a2afce775d9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kr04s.4b63a66b.cyou"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    }
+  ]
+}
+
+
