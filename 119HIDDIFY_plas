@@ -1,6 +1,7 @@
 //profile-title: کانال تلگرامی ما*🌋[@𝗛𝗜𝗗𝗗𝗜𝗙𝗬_𝗽𝗹𝗮𝘀]🌋*برای کانفیگ های بیشتر جوین شو
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=121000000000; expire=1761000000
+
 vmess://{"add":"134.195.198.147","aid":0,"host":"inna.cfd","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"/","port":443,"ps":"@HIDDIFY_plas_299","tls":"tls","type":"auto","security":"auto","skip-cert-verify":true,"sni":""}
 trojan://2ee85121-31de-4581-a492-eb00f606e392@192.3.107.252:443?security=tls&sni=rc8.freeguard.org#@HIDDIFY_plas_300
 vmess://{"add":"23.162.200.227","aid":0,"host":"","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"/","port":443,"ps":"@HIDDIFY_plas_301","tls":"tls","type":"auto","security":"auto","skip-cert-verify":true,"sni":""}
