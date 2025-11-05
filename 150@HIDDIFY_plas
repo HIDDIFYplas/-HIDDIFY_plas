@@ -1,0 +1,1269 @@
+//profile-title: کانال تلگرامی ما*👑💵[𝗛𝗜𝗗𝗗𝗜𝗙𝗬_𝗽𝗹𝗮𝘀]💵👑*برای کانفیگ‌های بیشتر جوین شو
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=53687091002000; expire=176456200260
+//channel-link: https://t.me/HIDDIFY_plas
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+ipv6: false
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+    - 119.29.29.29
+    - 180.76.76.76
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - router.asus.com
+    - localhost.sec.qq.com
+    - localhost.ptlogin2.qq.com
+    - +.msftconnecttest.com
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
+
+
+proxies:
+  - type: hysteria2
+    name: "@HIDDIFY_plas 1"
+    server: jp7.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 2"
+    server: jp12.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 3"
+    server: sgc.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 4"
+    server: sgb.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 5"
+    server: sga.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: trojan
+    name: "@HIDDIFY_plas 6"
+    server: 36.151.192.242
+    port: 194
+    password: BxceQaOe
+    network: tcp
+    sni: 36.151.192.242
+    skip-cert-verify: true
+    tls: true
+  - type: hysteria2
+    name: "@HIDDIFY_plas 7"
+    server: jp2.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 8"
+    server: de1.jueduibupao.top
+    port: 41067
+    password: 7b56a495-39a9-421d-8bed-81fe33b0e365
+    skip-cert-verify: true
+    sni: de1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 9"
+    server: kr4.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 10"
+    server: jp11.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 11"
+    server: de1.jueduibupao.top
+    port: 44782
+    password: 3807d049-edf7-47f2-af91-b601f89caf88
+    skip-cert-verify: true
+    sni: de1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 12"
+    server: th1.jueduibupao.top
+    port: 30000
+    password: 3807d049-edf7-47f2-af91-b601f89caf88
+    skip-cert-verify: true
+    sni: th1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 13"
+    server: th1.jueduibupao.top
+    port: 30000
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: th1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 14"
+    server: tw2.jueduibupao.top
+    port: 30078
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    skip-cert-verify: true
+    sni: tw2.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 15"
+    server: jp3.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 16"
+    server: jp4.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 17"
+    server: th1.jueduibupao.top
+    port: 30000
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    skip-cert-verify: true
+    sni: th1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 18"
+    server: jp1.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 19"
+    server: jp8.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: vless
+    name: "@HIDDIFY_plas 20"
+    server: 154.204.183.68
+    port: 10001
+    uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+    network: tcp
+    servername: www.icloud.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 7qP6YKWx5CJXia1qjQoIcD7FRjUBbioaioioI729D34
+      short-id: 2afe4310
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 21"
+    server: de1.jueduibupao.top
+    port: 48961
+    password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
+    skip-cert-verify: true
+    sni: de1.jueduibupao.top
+  - type: vless
+    name: "@HIDDIFY_plas 22"
+    server: 93.94.51.9
+    port: 28813
+    uuid: 3d71e4dd-5e4b-473c-8d1c-28aefa14cdb5
+    network: tcp
+    servername: yandex.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: _4MQ6e6Z3IPdExI9HbGz8xqKL83Uv8YZHNs0hVET2FE
+      short-id: daf1198a669f3b60
+    client-fingerprint: chrome
+  - type: vmess
+    name: "@HIDDIFY_plas 23"
+    server: 137.220.150.40
+    port: 20297
+    uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: hysteria2
+    name: "@HIDDIFY_plas 24"
+    server: 163.172.21.105
+    port: 5355
+    password: dongtaiwang.com
+    skip-cert-verify: true
+    sni: www.bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 25"
+    server: 8a108d8e-t59gg0-t7scm6-1o20w.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: d70a9508-5477-11ef-bf61-f23c913c8d2b
+    sni: 8a108d8e-t59gg0-t7scm6-1o20w.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 26"
+    server: de1.jueduibupao.top
+    port: 48450
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: de1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 27"
+    server: c12fd133-t57ls0-t6dbrs-lj7z.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
+    sni: c12fd133-t57ls0-t6dbrs-lj7z.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 28"
+    server: 17f6c2b5-t57ls0-t6nk6i-1osdm.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 91365a7a-46d7-11ee-a8b9-f23c9164ca5d
+    sni: 17f6c2b5-t57ls0-t6nk6i-1osdm.us.hyhuawei.com
+  - type: vless
+    name: "@HIDDIFY_plas 29"
+    server: 104.21.16.1
+    port: 2096
+    uuid: c60ee633-a180-436a-b6ad-746653780c0b
+    network: ws
+    servername: Net-AccouNT1.PagES.deV
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /jcvxLoQVdQaPFDYc?ed=2560
+      headers:
+        Host: net-account1.pages.dev
+    client-fingerprint: randomized
+    alpn:
+      - http/1.1
+  - type: hysteria2
+    name: "@HIDDIFY_plas 30"
+    server: 970af075-t55r40-tdps9l-155d9.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
+    sni: 970af075-t55r40-tdps9l-155d9.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 31"
+    server: e5f4118b-t55r40-t9uin7-19ord.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+    sni: e5f4118b-t55r40-t9uin7-19ord.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 32"
+    server: de1.jueduibupao.top
+    port: 41661
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    skip-cert-verify: true
+    sni: de1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 33"
+    server: de8f201c-t59gg0-t6kwk6-1s3lb.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+    sni: de8f201c-t59gg0-t6kwk6-1s3lb.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 34"
+    server: acbce4d3-t57ls0-t623um-yjq0.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+    sni: acbce4d3-t57ls0-t623um-yjq0.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 35"
+    server: cd398a18-t57ls0-tc2sod-1tizo.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
+    sni: cd398a18-t57ls0-tc2sod-1tizo.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 36"
+    server: 23119d3c-t55r40-tcmtfl-1qudp.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 99129cef-f705-11ee-ada6-f23c91cfbbc9
+    sni: 23119d3c-t55r40-tcmtfl-1qudp.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 37"
+    server: 8258fd7c-t55r40-tb74a6-1q9g2.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+    sni: 8258fd7c-t55r40-tb74a6-1q9g2.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 38"
+    server: us5.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 39"
+    server: a8429f9e-t53wg0-t66zs1-1pq44.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 3f194e88-8eac-11ee-be7f-f23c9164ca5d
+    sni: a8429f9e-t53wg0-t66zs1-1pq44.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 40"
+    server: a41a007f-t59gg0-t6lp0p-1lkt0.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+    sni: a41a007f-t59gg0-t6lp0p-1lkt0.us.hyhuawei.com
+  - type: vless
+    name: "@HIDDIFY_plas 41"
+    server: 104.21.16.1
+    port: 2096
+    uuid: c60ee633-a180-436a-b6ad-746653780c0b
+    network: ws
+    servername: Net-AccouNT1.PagES.deV
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /jcvxLoQVdQaPFDYc?ed=2560
+      headers:
+        Host: net-account1.pages.dev
+    client-fingerprint: randomized
+    alpn:
+      - http/1.1
+  - type: hysteria2
+    name: "@HIDDIFY_plas 42"
+    server: 0a82e2d5-t59gg0-teqqcv-1rc6n.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+    sni: 0a82e2d5-t59gg0-teqqcv-1rc6n.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 43"
+    server: 5ee09960-t59gg0-tb36ag-1jfq7.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: baa46fd6-63c1-11ed-8ea9-f23c913c8d2b
+    sni: 5ee09960-t59gg0-tb36ag-1jfq7.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 44"
+    server: 74.48.204.238
+    port: 31148
+    password: S5wfXiPV4T
+    skip-cert-verify: true
+  - type: hysteria2
+    name: "@HIDDIFY_plas 45"
+    server: 44c299ab-t57ls0-teqqcv-1rc6n.us.hyhuawei.com
+    port: 443
+    password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+    sni: 44c299ab-t57ls0-teqqcv-1rc6n.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 46"
+    server: e6641836-t57ls0-tc5odo-1mh85.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: cf7331fa-bfeb-11ed-a807-f23c913c8d2b
+    sni: e6641836-t57ls0-tc5odo-1mh85.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 47"
+    server: 30e22d14-t59gg0-t6pk5f-f1v1.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b
+    sni: 30e22d14-t59gg0-t6pk5f-f1v1.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 48"
+    server: e8b21c12-t59gg0-tc2sod-1tizo.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
+    sni: e8b21c12-t59gg0-tc2sod-1tizo.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 49"
+    server: 8d1100cb-t57ls0-t7scm6-1o20w.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: d70a9508-5477-11ef-bf61-f23c913c8d2b
+    sni: 8d1100cb-t57ls0-t7scm6-1o20w.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 50"
+    server: 36d3bb7c-t57ls0-t6fl0c-1r7od.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+    sni: 36d3bb7c-t57ls0-t6fl0c-1r7od.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 51"
+    server: us3.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 52"
+    server: c6914a2d-t57ls0-tb74a6-1q9g2.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+    sni: c6914a2d-t57ls0-tb74a6-1q9g2.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 53"
+    server: a27b1341-t59gg0-tb74a6-1q9g2.us.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+    sni: a27b1341-t59gg0-tb74a6-1q9g2.us.hyhuawei.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 54"
+    server: ny.jueduibupao.top
+    port: 50001
+    password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
+    skip-cert-verify: true
+    sni: ny.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 55"
+    server: us2.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: vmess
+    name: "@HIDDIFY_plas 56"
+    server: 82.152.64.40
+    port: 10982
+    uuid: 5a754ab1-f72d-4dc1-a2ee-31362f931201
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: hysteria2
+    name: "@HIDDIFY_plas 57"
+    server: 164.152.167.224
+    port: 36276
+    password: cutOjL4dfK
+    skip-cert-verify: true
+  - type: hysteria2
+    name: "@HIDDIFY_plas 58"
+    server: ny.jueduibupao.top
+    port: 50001
+    password: 7b56a495-39a9-421d-8bed-81fe33b0e365
+    skip-cert-verify: true
+    sni: ny.jueduibupao.top
+  - type: vless
+    name: "@HIDDIFY_plas 59"
+    server: gr.monkeyisland.life
+    port: 443
+    uuid: 74c0af7c-8482-4b4e-b067-ea456a80cdb7
+    network: tcp
+    servername: gr.monkeyisland.life
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE
+      short-id: 08aa0813199a4c38
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 60"
+    server: us1.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 61"
+    server: ny.jueduibupao.top
+    port: 50001
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    skip-cert-verify: true
+    sni: ny.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 62"
+    server: kr3.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 63"
+    server: ny.jueduibupao.top
+    port: 50001
+    password: 3807d049-edf7-47f2-af91-b601f89caf88
+    skip-cert-verify: true
+    sni: ny.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 64"
+    server: kr1.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 65"
+    server: us4.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 66"
+    server: ny.jueduibupao.top
+    port: 50001
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: ny.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 67"
+    server: ca1.jueduibupao.top
+    port: 42285
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: ca1.jueduibupao.top
+  - type: vless
+    name: "@HIDDIFY_plas 68"
+    server: 194.182.79.240
+    port: 14338
+    uuid: de80fd2a-afe3-4cd6-8222-c05c271cc05e
+    network: grpc
+    encryption: none
+    grpc-opts:
+      grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  - type: vless
+    name: "@HIDDIFY_plas 69"
+    server: de.inet.monster
+    port: 443
+    uuid: 8632541a-1381-48c8-8b1f-4845fb8a7419
+    network: tcp
+    servername: yandex.tr
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: ahZYfkzatA4K94Jxv1y9ITY581e1WSbKgirNZE6BHXo
+      short-id: 340d7478
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@HIDDIFY_plas 70"
+    server: 155.212.110.2
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@HIDDIFY_plas 71"
+    server: ro.otunnel.icu
+    port: 443
+    uuid: b41bfc57-24af-42c7-a791-89e7099958c5
+    network: tcp
+    servername: www.orange.ro
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: _e4RpYgOhpfmdPLtqzEzSbEnl0a6moiCKtU9DXK0phI
+      short-id: bc60d5de
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 72"
+    server: azcus1.jueduibupao.top
+    port: 20101
+    password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
+    skip-cert-verify: true
+    sni: azcus1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 73"
+    server: 163.172.21.105
+    port: 5355
+    password: dongtaiwang.com
+    skip-cert-verify: true
+    sni: www.bing.com
+  - type: hysteria2
+    name: "@HIDDIFY_plas 74"
+    server: hk2.jueduibupao.top
+    port: 49706
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: hk2.jueduibupao.top
+  - type: vless
+    name: "@HIDDIFY_plas 75"
+    server: 130.49.77.10
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 76"
+    server: hk2.jueduibupao.top
+    port: 41627
+    password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
+    skip-cert-verify: true
+    sni: hk2.jueduibupao.top
+  - type: vless
+    name: "@HIDDIFY_plas 77"
+    server: 91.230.128.10
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: uiNUZVDwZTHc3jYpobpZgTzN_2V8Vt8zSVXqANXKUUE
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@HIDDIFY_plas 78"
+    server: 77.110.119.225
+    port: 443
+    uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+    network: tcp
+    servername: st.ozone.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+      short-id: 07e904766d29b958
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 79"
+    server: azcus1.jueduibupao.top
+    port: 20101
+    password: 3807d049-edf7-47f2-af91-b601f89caf88
+    skip-cert-verify: true
+    sni: azcus1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 80"
+    server: azcus1.jueduibupao.top
+    port: 20101
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    skip-cert-verify: true
+    sni: azcus1.jueduibupao.top
+  - type: vless
+    name: "@HIDDIFY_plas 81"
+    server: 146.19.90.10
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 82"
+    server: ca1.jueduibupao.top
+    port: 42009
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    skip-cert-verify: true
+    sni: ca1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 83"
+    server: 191.96.11.107
+    port: 48361
+    password: JOh7tQHdp8
+    skip-cert-verify: true
+  - type: vless
+    name: "@HIDDIFY_plas 84"
+    server: 185.77.221.10
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 85"
+    server: azcus1.jueduibupao.top
+    port: 20101
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: azcus1.jueduibupao.top
+  - type: vless
+    name: "@HIDDIFY_plas 86"
+    server: 193.56.20.10
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@HIDDIFY_plas 87"
+    server: 155.212.37.10
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 0xVsi6JYS-gJFUILwuePsB32jvWtxRT_okJSmcWEQEc
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@HIDDIFY_plas 88"
+    server: 156.224.78.8
+    port: 10001
+    uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+    network: tcp
+    servername: www.icloud.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: D_kMOsg1KCtT0tudPFVDXGuEcSqZGtUYqBB-BiIxmls
+      short-id: f7223dab
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@HIDDIFY_plas 89"
+    server: 185.77.221.10
+    port: 443
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@HIDDIFY_plas 90"
+    server: 155.212.110.3
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: DnnQOtWhilZ3rqlSip0spBkluYlPeydouSR3iklbPTs
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 91"
+    server: 4e04a09e-t2uf40-t9lb2a-1glq.la.shifen.uk
+    port: 1743
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    sni: 4e04a09e-t2uf40-t9lb2a-1glq.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 92"
+    server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+    port: 1743
+    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+    sni: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 93"
+    server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+    port: 1743
+    ports: 20000-50000
+    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    sni: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+  - type: vless
+    name: "@HIDDIFY_plas 94"
+    server: softbank88.xzcloudnode.sbs
+    port: 51623
+    uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7
+    network: tcp
+    servername: itunes.apple.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 95"
+    server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
+    port: 1743
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 96"
+    server: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
+    port: 1743
+    ports: 20000-50000
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    sni: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 97"
+    server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
+    port: 1743
+    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    sni: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 98"
+    server: 360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk
+    port: 1743
+    password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+    sni: 360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 99"
+    server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+    port: 1743
+    password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+    sni: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 100"
+    server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
+    port: 1743
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    sni: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 101"
+    server: lvs.jueduibupao.top
+    port: 50001
+    password: 3807d049-edf7-47f2-af91-b601f89caf88
+    skip-cert-verify: true
+    sni: lvs.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 102"
+    server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
+    port: 1743
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    sni: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 103"
+    server: hk1.jueduibupao.top
+    port: 50001
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: hk1.jueduibupao.top
+  - type: ss
+    name: "@HIDDIFY_plas 104"
+    server: zz1.xxxyun.top
+    port: 39203
+    cipher: 2022-blake3-aes-128-gcm
+    password: MDhhMTdjZDI0MjI2ZWRlNg==:NGE2YmY2NDAtNWM1ZS00MQ==
+  - type: hysteria2
+    name: "@HIDDIFY_plas 105"
+    server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
+    port: 1743
+    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    sni: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 106"
+    server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
+    port: 1743
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    sni: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 107"
+    server: us6.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: vless
+    name: "@HIDDIFY_plas 108"
+    server: ip.sb
+    port: 443
+    uuid: 6fd62709-54d9-43aa-bf9e-00776a0a25d3
+    network: ws
+    servername: 81715dc4.se-8ea.pages.dev
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /x0nlkw0wqjljeqwv/mti5lje1ms4ymdquote=?ed=2560
+      headers:
+        Host: 81715dc4.se-8ea.pages.dev
+    client-fingerprint: randomized
+    alpn:
+      - h2
+      - http/1.1
+  - type: hysteria2
+    name: "@HIDDIFY_plas 109"
+    server: hk2.jueduibupao.top
+    port: 43681
+    password: 3807d049-edf7-47f2-af91-b601f89caf88
+    skip-cert-verify: true
+    sni: hk2.jueduibupao.top
+  - type: ss
+    name: "@HIDDIFY_plas 110"
+    server: zz2.xxxyun.top
+    port: 40021
+    cipher: 2022-blake3-aes-128-gcm
+    password: MDhhMTdjZDI0MjI2ZWRlNg==:NzM3NDZkYWItY2RmNS00Zg==
+  - type: hysteria2
+    name: "@HIDDIFY_plas 111"
+    server: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
+    port: 1743
+    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+    sni: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  - type: vless
+    name: "@HIDDIFY_plas 112"
+    server: 130.49.77.10
+    port: 443
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: "@HIDDIFY_plas 113"
+    server: 166.1.131.8
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: E1iFYUiUC2G4W70mwPyfa9oV3EVt26SfZoLcqd2yaUI
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 114"
+    server: linjp2.jueduibupao.top
+    port: 30000
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    skip-cert-verify: true
+    sni: linjp2.jueduibupao.top
+  - type: vless
+    name: "@HIDDIFY_plas 115"
+    server: russia22.clearorbitllc.com
+    port: 443
+    uuid: 5c1bc547-6ed3-4234-873e-966d9eef5d27
+    network: tcp
+    servername: russia22.clearorbitllc.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: fwyaXZJrcorp1BQM4O2SicK-n15VNO53GWvvFsecbhM
+      short-id: 10f76a02167e9b
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 116"
+    server: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
+    port: 1743
+    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+    sni: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 117"
+    server: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
+    port: 1743
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    sni: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 118"
+    server: linjp2.jueduibupao.top
+    port: 30000
+    password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
+    skip-cert-verify: true
+    sni: linjp2.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 119"
+    server: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
+    port: 1743
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    sni: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
+  - type: vless
+    name: "@HIDDIFY_plas 120"
+    server: ip.sb
+    port: 443
+    uuid: 6fd62709-54d9-43aa-bf9e-00776a0a25d3
+    network: ws
+    servername: 81715dc4.se-8ea.pages.dev
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /x0nlkw0wqjljeqwv/mti5lje1ms4ymdquote=?ed=2560
+      headers:
+        Host: 81715dc4.se-8ea.pages.dev
+  - type: hysteria2
+    name: "@HIDDIFY_plas 121"
+    server: 3ca87d3a-t3bpc0-tcm6ys-deip.la.shifen.uk
+    port: 1743
+    password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+    sni: 3ca87d3a-t3bpc0-tcm6ys-deip.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 122"
+    server: 61f04f6d-t4v9c0-t5amrp-b4pt.la.shifen.uk
+    port: 1743
+    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+    sni: 61f04f6d-t4v9c0-t5amrp-b4pt.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 123"
+    server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
+    port: 1743
+    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 124"
+    server: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
+    port: 1743
+    ports: 20000-50000
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    sni: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 125"
+    server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+    port: 1743
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  - type: vless
+    name: "@HIDDIFY_plas 126"
+    server: 155.212.110.3
+    port: 443
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: DnnQOtWhilZ3rqlSip0spBkluYlPeydouSR3iklbPTs
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 127"
+    server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
+    port: 1743
+    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+    sni: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 128"
+    server: ffe170b7-t4x400-tcl9of-5fdt.la.shifen.uk
+    port: 1743
+    ports: 20000-50000
+    password: 712bdc36-24be-11ee-be53-f23c9313b177
+    sni: ffe170b7-t4x400-tcl9of-5fdt.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 129"
+    server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+    port: 1743
+    password: 712bdc36-24be-11ee-be53-f23c9313b177
+    sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+  - type: vless
+    name: "@HIDDIFY_plas 130"
+    server: 155.212.37.10
+    port: 443
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 0xVsi6JYS-gJFUILwuePsB32jvWtxRT_okJSmcWEQEc
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 131"
+    server: linjp2.jueduibupao.top
+    port: 30000
+    password: 3807d049-edf7-47f2-af91-b601f89caf88
+    skip-cert-verify: true
+    sni: linjp2.jueduibupao.top
+  - type: vless
+    name: "@HIDDIFY_plas 132"
+    server: 193.56.20.10
+    port: 443
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 133"
+    server: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
+    port: 1743
+    password: 06c625ea-5902-11ee-9e87-f23c9313b177
+    sni: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 134"
+    server: lvs.jueduibupao.top
+    port: 50001
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    skip-cert-verify: true
+    sni: lvs.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 135"
+    server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+    port: 1743
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 136"
+    server: bb441d0e-t4x400-t5waci-4550.la.shifen.uk
+    port: 1743
+    ports: 20000-50000
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    sni: bb441d0e-t4x400-t5waci-4550.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 137"
+    server: linjp1.jueduibupao.top
+    port: 44819
+    password: 3807d049-edf7-47f2-af91-b601f89caf88
+    skip-cert-verify: true
+    sni: linjp1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 138"
+    server: linjp1.jueduibupao.top
+    port: 45183
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: linjp1.jueduibupao.top
+  - type: vless
+    name: "@HIDDIFY_plas 139"
+    server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+    port: 443
+    uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+    network: tcp
+    servername: i2pd.website
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+      short-id: 55e6af1a35e64a98
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: "@HIDDIFY_plas 140"
+    server: linjp2.jueduibupao.top
+    port: 30000
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: linjp2.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 141"
+    server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
+    port: 1743
+    password: 712bdc36-24be-11ee-be53-f23c9313b177
+    sni: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 142"
+    server: linjp1.jueduibupao.top
+    port: 49130
+    password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
+    skip-cert-verify: true
+    sni: linjp1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 143"
+    server: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
+    port: 1743
+    password: 06c625ea-5902-11ee-9e87-f23c9313b177
+    sni: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 144"
+    server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
+    port: 1743
+    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+    sni: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
+  - type: vless
+    name: "@HIDDIFY_plas 145"
+    server: www.speedtest.net
+    port: 2082
+    uuid: a7f1d4f0-5b12-48f1-c19a-de55b3fe40ef
+    network: ws
+    servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    encryption: none
+    ws-opts:
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+      headers:
+        Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  - type: hysteria2
+    name: "@HIDDIFY_plas 146"
+    server: linsg1.jueduibupao.top
+    port: 43952
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: linsg1.jueduibupao.top
+  - type: hysteria2
+    name: "@HIDDIFY_plas 147"
+    server: f9a084a0-t4x400-t5ht86-dnss.la.shifen.uk
+    port: 1743
+    ports: 20000-50000
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    sni: f9a084a0-t4x400-t5ht86-dnss.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 148"
+    server: 37a48ffc-t4whs0-t5a0jp-b4pt.la.shifen.uk
+    port: 1743
+    ports: 20000-50000
+    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+    sni: 37a48ffc-t4whs0-t5a0jp-b4pt.la.shifen.uk
+  - type: hysteria2
+    name: "@HIDDIFY_plas 149"
+    server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
+    port: 1743
+    password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+    sni: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
+  - type: vmess
+    name: "@HIDDIFY_plas 150"
+    server: 160.187.111.112
+    port: 57313
+    uuid: 91943e7e-4a0e-4b5a-a4f9
