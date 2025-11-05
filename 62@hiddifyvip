@@ -1,0 +1,174 @@
+//profile-title: کانال تلگرامی ما*👑📟[@hiddifyvip]📟👑*برای کانفیگ‌های بیشتر جوین شو
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=53687091002000; expire=176456200260
+//channel-link: https://t.me/HIDDIFY_plas
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+ipv6: false
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+    - 119.29.29.29
+    - 180.76.76.76
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - router.asus.com
+    - localhost.sec.qq.com
+    - localhost.ptlogin2.qq.com
+    - +.msftconnecttest.com
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
+
+proxies:
+  - type: hysteria2
+    name: "@hiddifyvip | plas 1"
+    server: jp7.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@hiddifyvip | plas 2"
+    server: jp12.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@hiddifyvip | plas 3"
+    server: sgc.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@hiddifyvip | plas 4"
+    server: sgb.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@hiddifyvip | plas 5"
+    server: sga.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: trojan
+    name: "@hiddifyvip | plas 6"
+    server: 36.151.192.242
+    port: 194
+    password: BxceQaOe
+    network: tcp
+    sni: 36.151.192.242
+    skip-cert-verify: true
+    tls: true
+  - type: hysteria2
+    name: "@hiddifyvip | plas 7"
+    server: jp2.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@hiddifyvip | plas 8"
+    server: de1.jueduibupao.top
+    port: 41067
+    password: 7b56a495-39a9-421d-8bed-81fe33b0e365
+    skip-cert-verify: true
+    sni: de1.jueduibupao.top
+  - type: hysteria2
+    name: "@hiddifyvip | plas 9"
+    server: kr4.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@hiddifyvip | plas 10"
+    server: jp11.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@hiddifyvip | plas 11"
+    server: de1.jueduibupao.top
+    port: 44782
+    password: 3807d049-edf7-47f2-af91-b601f89caf88
+    skip-cert-verify: true
+    sni: de1.jueduibupao.top
+  - type: hysteria2
+    name: "@hiddifyvip | plas 12"
+    server: th1.jueduibupao.top
+    port: 30000
+    password: 3807d049-edf7-47f2-af91-b601f89caf88
+    skip-cert-verify: true
+    sni: th1.jueduibupao.top
+  - type: hysteria2
+    name: "@hiddifyvip | plas 13"
+    server: th1.jueduibupao.top
+    port: 30000
+    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    skip-cert-verify: true
+    sni: th1.jueduibupao.top
+  - type: hysteria2
+    name: "@hiddifyvip | plas 14"
+    server: tw2.jueduibupao.top
+    port: 30078
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    skip-cert-verify: true
+    sni: tw2.jueduibupao.top
+  - type: hysteria2
+    name: "@hiddifyvip | plas 15"
+    server: jp3.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@hiddifyvip | plas 16"
+    server: jp4.oomz.ru
+    port: 30000
+    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    skip-cert-verify: true
+    sni: bing.com
+  - type: hysteria2
+    name: "@hiddifyvip | plas 17"
+    server: th1.jueduibupao.top
+    port: 30000
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    skip-cert-
