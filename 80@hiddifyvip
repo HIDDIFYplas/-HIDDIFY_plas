@@ -1,0 +1,147 @@
+//profile-title: کانال تلگرامی ما*👑⚙️[@hiddifyvip]⚙️👑*برای کانفیگ‌های بیشتر جوین شو
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=64424500094400; expire=176456200260
+//channel-link: https://t.me/HIDDIFY_plas
+
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+
+proxies:
+  - {"name":"کانال تلگرامی ما@hiddifyvip 1","type":"vless","server":"152.53.145.111","port":26861,"udp":true,"uuid":"04db6938-72dc-42b4-a096-cc6a5e8316d2","tls":true,"servername":"groww.in","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"IIdE2p3vqHDjHfLrvJXkrLoYpYMJH0R1tacCkHiDtAA","short-id":"ecc1c4"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 2","type":"vless","server":"45.134.12.47","port":31203,"udp":true,"uuid":"87d1f4b2-83e7-4125-8d62-5d376871fd41","tls":true,"servername":"vt-1.ozone.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"tN1ZYDEnM0t_V59FGQSpiq56sOpDo8JZ25Epgg-Z9kg","short-id":"ab12cd34"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 3","type":"vless","server":"152.53.146.1","port":31502,"udp":true,"uuid":"b20c12e7-f071-4829-94e7-17dc4e43a37a","tls":true,"servername":"marmiton.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM","short-id":"e1814a"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 4","type":"vless","server":"193.46.81.151","port":50853,"udp":true,"uuid":"d988a5dc-35a4-44e6-8a78-a56659eee68c","tls":true,"servername":"miro.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs","short-id":"69"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 5","type":"vless","server":"45.144.31.234","port":443,"udp":true,"uuid":"06ff1742-a37d-4e2b-aa60-9571d9f7efdb","tls":true,"servername":"hls-svod.itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg","short-id":"31"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 6","type":"vless","server":"216.133.149.139","port":23581,"udp":true,"uuid":"b5471668-94dc-4ea5-ae97-3bb9dabcd2a9","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"EOYTqph-go2SazIPcSDl5pJGNyOnrR0mWaL8Tc_paEM"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 7","type":"vless","server":"213.165.56.29","port":57247,"udp":true,"uuid":"f5b892fc-70cc-4a1e-a669-515c37a25a3b","tls":true,"servername":"refersion.com","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"tT-RaQN_mG91TvgaQN1xQZ6nriD9HEWlGYZVlwQwaTg","short-id":"d6"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 8","type":"vless","server":"51.77.79.208","port":20382,"udp":true,"uuid":"bae2d072-d260-4ecb-8a0e-ee1e5b207914","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"---skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn---"},"reality-opts":{"public-key":"5co7lYAzP1xAQPAJ36zIEOjPmTiIjJJvJmlIyyJxPks","short-id":"e9fde331c4a02cfd"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 9","type":"vless","server":"185.236.25.242","port":443,"udp":true,"uuid":"8795d657-0140-4e74-8b80-b5d6d576b31b","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs","short-id":"0f1d6a"},"client-fingerprint":"random"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 10","type":"vless","server":"185.243.99.104","port":29453,"udp":true,"uuid":"a9457db5-e0b8-4a86-bb33-957c99b235c0","tls":true,"servername":"zhaket.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY","short-id":"850a5cbb81"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 11","type":"vless","server":"45.144.31.234","port":443,"udp":true,"uuid":"06ff1742-a37d-4e2b-aa60-9571d9f7efdb","tls":true,"servername":"hls-svod.itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg","short-id":"31"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 12","type":"vless","server":"151.236.93.239","port":443,"udp":true,"uuid":"3a8171ea-a706-40f6-a97a-97264263dc1c","tls":true,"servername":"io.ozone.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw","short-id":"42e51b053eec3700"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 13","type":"vless","server":"195.66.27.139","port":45272,"udp":true,"uuid":"5bd921b7-117c-4be1-b8e6-7bfb7206e640","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"7bEP1lfl1xFyfkcdVXE1wmXXs9BrGZHEBdroG4XAml0","short-id":"9a31393b7a7273"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 14","type":"vless","server":"152.53.146.1","port":31502,"udp":true,"uuid":"b20c12e7-f071-4829-94e7-17dc4e43a37a","tls":true,"servername":"marmiton.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM","short-id":"e1814a"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 15","type":"vless","server":"45.90.236.5","port":443,"udp":true,"uuid":"54648aeb-374a-41f5-8ca9-59c3b886a466","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"6bdxTggpMa9veyosJjxCvB3UPZmj-OquWTqp1iXAP3Y","short-id":"785be44fdf"},"client-fingerprint":"random"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 16","type":"vless","server":"158.220.88.63","port":443,"udp":true,"uuid":"7c9d302f-1438-4f37-a6e0-0591dc4a4614","tls":true,"servername":"www.microsoft.com","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"7e41eb32ea906cebaf077110"},"reality-opts":{"public-key":"DTfizB6SKAjSe4gQVreWTIMpDT7HsDcqfR0_Y2xo7Gw","short-id":"7daa515f56d7db89"},"client-fingerprint":"safari"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 17","type":"vless","server":"62.60.246.188","port":443,"udp":true,"uuid":"405ec164-7923-4d76-8be5-7ae96e444f4e","tls":true,"servername":"web.max.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0","short-id":"6104c5e9613ea56c"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 18","type":"vless","server":"31.6.1.187","port":25607,"udp":true,"uuid":"c8451b58-6337-4294-ba28-1a33731331a1","tls":true,"servername":"store.steampowered.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE","short-id":"84"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 19","type":"vless","server":"193.46.81.151","port":50853,"udp":true,"uuid":"d988a5dc-35a4-44e6-8a78-a56659eee68c","tls":true,"servername":"miro.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs","short-id":"69"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 20","type":"vless","server":"195.93.253.49","port":33094,"udp":true,"uuid":"6f8923d9-f812-4ca6-b93a-8f9227bf2eab","tls":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"35JazACyPS6LcDwpGibneEeMzkzGYWf4KTG_Oqp0oBE","short-id":"29489194da0d5d"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 21","type":"vless","server":"152.53.145.111","port":26861,"udp":true,"uuid":"04db6938-72dc-42b4-a096-cc6a5e8316d2","tls":true,"servername":"groww.in","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"IIdE2p3vqHDjHfLrvJXkrLoYpYMJH0R1tacCkHiDtAA","short-id":"ecc1c4"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 22","type":"vless","server":"45.134.12.47","port":31203,"udp":true,"uuid":"87d1f4b2-83e7-4125-8d62-5d376871fd41","tls":true,"servername":"vt-1.ozone.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"tN1ZYDEnM0t_V59FGQSpiq56sOpDo8JZ25Epgg-Z9kg","short-id":"ab12cd34"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 23","type":"vless","server":"152.53.146.1","port":31502,"udp":true,"uuid":"b20c12e7-f071-4829-94e7-17dc4e43a37a","tls":true,"servername":"marmiton.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM","short-id":"e1814a"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 24","type":"vless","server":"193.46.81.151","port":50853,"udp":true,"uuid":"d988a5dc-35a4-44e6-8a78-a56659eee68c","tls":true,"servername":"miro.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs","short-id":"69"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 25","type":"vless","server":"45.144.31.234","port":443,"udp":true,"uuid":"06ff1742-a37d-4e2b-aa60-9571d9f7efdb","tls":true,"servername":"hls-svod.itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg","short-id":"31"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 26","type":"vless","server":"216.133.149.139","port":23581,"udp":true,"uuid":"b5471668-94dc-4ea5-ae97-3bb9dabcd2a9","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"EOYTqph-go2SazIPcSDl5pJGNyOnrR0mWaL8Tc_paEM"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 27","type":"vless","server":"213.165.56.29","port":57247,"udp":true,"uuid":"f5b892fc-70cc-4a1e-a669-515c37a25a3b","tls":true,"servername":"refersion.com","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"tT-RaQN_mG91TvgaQN1xQZ6nriD9HEWlGYZVlwQwaTg","short-id":"d6"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 28","type":"vless","server":"51.77.79.208","port":20382,"udp":true,"uuid":"bae2d072-d260-4ecb-8a0e-ee1e5b207914","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"---skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn---"},"reality-opts":{"public-key":"5co7lYAzP1xAQPAJ36zIEOjPmTiIjJJvJmlIyyJxPks","short-id":"e9fde331c4a02cfd"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 29","type":"vless","server":"185.236.25.242","port":443,"udp":true,"uuid":"8795d657-0140-4e74-8b80-b5d6d576b31b","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs","short-id":"0f1d6a"},"client-fingerprint":"random"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 30","type":"vless","server":"185.243.99.104","port":29453,"udp":true,"uuid":"a9457db5-e0b8-4a86-bb33-957c99b235c0","tls":true,"servername":"zhaket.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY","short-id":"850a5cbb81"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 31","type":"vless","server":"45.144.31.234","port":443,"udp":true,"uuid":"06ff1742-a37d-4e2b-aa60-9571d9f7efdb","tls":true,"servername":"hls-svod.itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg","short-id":"31"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 32","type":"vless","server":"151.236.93.239","port":443,"udp":true,"uuid":"3a8171ea-a706-40f6-a97a-97264263dc1c","tls":true,"servername":"io.ozone.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw","short-id":"42e51b053eec3700"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 33","type":"vless","server":"195.66.27.139","port":45272,"udp":true,"uuid":"5bd921b7-117c-4be1-b8e6-7bfb7206e640","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"7bEP1lfl1xFyfkcdVXE1wmXXs9BrGZHEBdroG4XAml0","short-id":"9a31393b7a7273"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 34","type":"vless","server":"152.53.146.1","port":31502,"udp":true,"uuid":"b20c12e7-f071-4829-94e7-17dc4e43a37a","tls":true,"servername":"marmiton.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM","short-id":"e1814a"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 35","type":"vless","server":"45.90.236.5","port":443,"udp":true,"uuid":"54648aeb-374a-41f5-8ca9-59c3b886a466","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"6bdxTggpMa9veyosJjxCvB3UPZmj-OquWTqp1iXAP3Y","short-id":"785be44fdf"},"client-fingerprint":"random"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 36","type":"vless","server":"158.220.88.63","port":443,"udp":true,"uuid":"7c9d302f-1438-4f37-a6e0-0591dc4a4614","tls":true,"servername":"www.microsoft.com","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"7e41eb32ea906cebaf077110"},"reality-opts":{"public-key":"DTfizB6SKAjSe4gQVreWTIMpDT7HsDcqfR0_Y2xo7Gw","short-id":"7daa515f56d7db89"},"client-fingerprint":"safari"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 37","type":"vless","server":"62.60.246.188","port":443,"udp":true,"uuid":"405ec164-7923-4d76-8be5-7ae96e444f4e","tls":true,"servername":"web.max.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0","short-id":"6104c5e9613ea56c"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 38","type":"vless","server":"31.6.1.187","port":25607,"udp":true,"uuid":"c8451b58-6337-4294-ba28-1a33731331a1","tls":true,"servername":"store.steampowered.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE","short-id":"84"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 39","type":"vless","server":"193.46.81.151","port":50853,"udp":true,"uuid":"d988a5dc-35a4-44e6-8a78-a56659eee68c","tls":true,"servername":"miro.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs","short-id":"69"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 40","type":"vless","server":"195.93.253.49","port":33094,"udp":true,"uuid":"6f8923d9-f812-4ca6-b93a-8f9227bf2eab","tls":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"35JazACyPS6LcDwpGibneEeMzkzGYWf4KTG_Oqp0oBE","short-id":"29489194da0d5d"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 41","type":"vless","server":"152.53.145.111","port":26861,"udp":true,"uuid":"04db6938-72dc-42b4-a096-cc6a5e8316d2","tls":true,"servername":"groww.in","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"IIdE2p3vqHDjHfLrvJXkrLoYpYMJH0R1tacCkHiDtAA","short-id":"ecc1c4"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 42","type":"vless","server":"45.134.12.47","port":31203,"udp":true,"uuid":"87d1f4b2-83e7-4125-8d62-5d376871fd41","tls":true,"servername":"vt-1.ozone.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"tN1ZYDEnM0t_V59FGQSpiq56sOpDo8JZ25Epgg-Z9kg","short-id":"ab12cd34"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 43","type":"vless","server":"152.53.146.1","port":31502,"udp":true,"uuid":"b20c12e7-f071-4829-94e7-17dc4e43a37a","tls":true,"servername":"marmiton.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM","short-id":"e1814a"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 44","type":"vless","server":"193.46.81.151","port":50853,"udp":true,"uuid":"d988a5dc-35a4-44e6-8a78-a56659eee68c","tls":true,"servername":"miro.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs","short-id":"69"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 45","type":"vless","server":"45.144.31.234","port":443,"udp":true,"uuid":"06ff1742-a37d-4e2b-aa60-9571d9f7efdb","tls":true,"servername":"hls-svod.itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg","short-id":"31"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 46","type":"vless","server":"216.133.149.139","port":23581,"udp":true,"uuid":"b5471668-94dc-4ea5-ae97-3bb9dabcd2a9","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"EOYTqph-go2SazIPcSDl5pJGNyOnrR0mWaL8Tc_paEM"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 47","type":"vless","server":"213.165.56.29","port":57247,"udp":true,"uuid":"f5b892fc-70cc-4a1e-a669-515c37a25a3b","tls":true,"servername":"refersion.com","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"tT-RaQN_mG91TvgaQN1xQZ6nriD9HEWlGYZVlwQwaTg","short-id":"d6"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 48","type":"vless","server":"51.77.79.208","port":20382,"udp":true,"uuid":"bae2d072-d260-4ecb-8a0e-ee1e5b207914","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"---skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn------skypro_vpn---"},"reality-opts":{"public-key":"5co7lYAzP1xAQPAJ36zIEOjPmTiIjJJvJmlIyyJxPks","short-id":"e9fde331c4a02cfd"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 49","type":"vless","server":"185.236.25.242","port":443,"udp":true,"uuid":"8795d657-0140-4e74-8b80-b5d6d576b31b","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs","short-id":"0f1d6a"},"client-fingerprint":"random"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 50","type":"vless","server":"185.243.99.104","port":29453,"udp":true,"uuid":"a9457db5-e0b8-4a86-bb33-957c99b235c0","tls":true,"servername":"zhaket.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY","short-id":"850a5cbb81"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 51","type":"vless","server":"45.144.31.234","port":443,"udp":true,"uuid":"06ff1742-a37d-4e2b-aa60-9571d9f7efdb","tls":true,"servername":"hls-svod.itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg","short-id":"31"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 52","type":"vless","server":"151.236.93.239","port":443,"udp":true,"uuid":"3a8171ea-a706-40f6-a97a-97264263dc1c","tls":true,"servername":"io.ozone.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw","short-id":"42e51b053eec3700"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 53","type":"vless","server":"195.66.27.139","port":45272,"udp":true,"uuid":"5bd921b7-117c-4be1-b8e6-7bfb7206e640","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"7bEP1lfl1xFyfkcdVXE1wmXXs9BrGZHEBdroG4XAml0","short-id":"9a31393b7a7273"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 54","type":"vless","server":"152.53.146.1","port":31502,"udp":true,"uuid":"b20c12e7-f071-4829-94e7-17dc4e43a37a","tls":true,"servername":"marmiton.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM","short-id":"e1814a"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 55","type":"vless","server":"45.90.236.5","port":443,"udp":true,"uuid":"54648aeb-374a-41f5-8ca9-59c3b886a466","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"6bdxTggpMa9veyosJjxCvB3UPZmj-OquWTqp1iXAP3Y","short-id":"785be44fdf"},"client-fingerprint":"random"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 56","type":"vless","server":"158.220.88.63","port":443,"udp":true,"uuid":"7c9d302f-1438-4f37-a6e0-0591dc4a4614","tls":true,"servername":"www.microsoft.com","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"7e41eb32ea906cebaf077110"},"reality-opts":{"public-key":"DTfizB6SKAjSe4gQVreWTIMpDT7HsDcqfR0_Y2xo7Gw","short-id":"7daa515f56d7db89"},"client-fingerprint":"safari"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 57","type":"vless","server":"62.60.246.188","port":443,"udp":true,"uuid":"405ec164-7923-4d76-8be5-7ae96e444f4e","tls":true,"servername":"web.max.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0","short-id":"6104c5e9613ea56c"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 58","type":"vless","server":"31.6.1.187","port":25607,"udp":true,"uuid":"c8451b58-6337-4294-ba28-1a33731331a1","tls":true,"servername":"store.steampowered.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE","short-id":"84"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 59","type":"vless","server":"193.46.81.151","port":50853,"udp":true,"uuid":"d988a5dc-35a4-44e6-8a78-a56659eee68c","tls":true,"servername":"miro.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs","short-id":"69"},"client-fingerprint":"chrome"}
+  - {"name":"کانال تلگرامی ما@hiddifyvip 60","type":"vless","server":"195.93.253.49","port":33094,"udp":true,"uuid":"6f8923d9-f812-4ca6-b93a-8f9227bf2eab","tls":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"35JazACyPS6LcDwpGibneEeMzkzGYWf4KTG_Oqp0oBE","short-id":"29489194da0d5d"},"client-fingerprint":"chrome"}
+
+proxy-groups:
