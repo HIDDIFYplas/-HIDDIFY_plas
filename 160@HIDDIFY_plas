@@ -1,0 +1,43 @@
+//profile-title: کانال تلگرامی ما*👑🚰[𝗛𝗜𝗗𝗗𝗜𝗙𝗬_𝗽𝗹𝗮𝘀]🚰👑*برای کانفیگ‌های بیشتر جوین شو
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=64434500094400; expire=176456200260
+//channel-link: https://t.me/HIDDIFY_plas
+
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enable: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+proxies:
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ①, server: cf.090227.xyz, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ②, server: linux.do, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ③, server: www.temu.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ④, server: docs.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑤, server: itarmy.com.ua, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑥, server: www.shopify.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑦, server: www.fbi.gov, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑧, server: www.wto.org, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑨, server: www.epicgames.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑩, server: support.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑪, server: blog.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑫, server: ns.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑬, server: developers.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑭, server: openai.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑮, server: www.whatismyip.net, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑯, server: www.npmjs.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑰, server: cdnjs.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑱, server: www.udemy.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+  - {name: کانال تلگرامی ما @HIDDIFY_plas ⑲, server: www.csgo.net, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fangbinxinghasdied.fangbinxingnmsl.workers.dev}}}
+
+proxy-groups:
