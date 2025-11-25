@@ -2,7 +2,7 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=124000000000000; expire=1761000000000
 
-warp://162.159.192.4:443?ifpm=m5#@HIDDIFY_plas_1
+warp://162.159.192.11:443?ifpm=m5#@HIDDIFY_plas_1
 warp://162.159.192.9:4500?ifpm=m5#@HIDDIFY_plas_2
 warp://162.159.192.6:4500?ifpm=m5#@HIDDIFY_plas_3
 warp://162.159.192.5:2408?ifpm=m5#@HIDDIFY_plas_4
