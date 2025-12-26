@@ -1,0 +1,1231 @@
+//profile-title: کانال تلگرامی ما*👑❄️[𝗛𝗜𝗗𝗗𝗜𝗙𝗬_𝗽𝗹𝗮𝘀]❄️👑*برای کانفیگ های بیشتر جوین شو
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=536870912000; expire=1769442402
+
+
+{
+  "log": {
+    "level": "warn",
+    "output": "box.log",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "address": "udp://1.1.1.1",
+        "address_resolver": "dns-direct"
+      },
+      {
+        "tag": "dns-trick-direct",
+        "address": "https://sky.rethinkdns.com/",
+        "detour": "direct-fragment"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "1.1.1.1",
+        "address_resolver": "dns-local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-local",
+        "address": "local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "ciqiyuanjiuyubamg01zl.ciyuan78.help",
+          "ciqiyuanjiuyubamg02zl.ciyuan78.help",
+          "ciqiyuanjiuyubaxg02zl.ciyuan78.help",
+          "ciqiyuanjiuyubarb01zl.ciyuan78.help",
+          "ciqiyuanjiuyubaels01zl.ciyuan78.help",
+          "ciqiyuanjiuyubajnd01zl.ciyuan78.help",
+          "ciqiyuanjiuyubaxg01zl.ciyuan78.help"
+        ],
+        "server": "dns-direct"
+      },
+      {
+        "domain": "cp.cloudflare.com",
+        "server": "dns-remote",
+        "rewrite_ttl": 3000
+      }
+    ],
+    "final": "dns-remote",
+    "static_ips": {
+      "sky.rethinkdns.com": [
+        "172.67.204.84",
+        "104.21.69.44",
+        "2606:4700:3032::6815:452c",
+        "2606:4700:3031::ac43:cc54",
+        "104.17.147.22",
+        "104.17.148.22",
+        "8.6.112.0",
+        "8.47.69.0",
+        "2a06:98c1:3123:8000::",
+        "2a06:98c1:3122:8000::"
+      ]
+    },
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "mtu": 9000,
+      "inet4_address": "172.19.0.1/28",
+      "inet6_address": "fdfe:dcba:9876::1/126",
+      "auto_route": true,
+      "strict_route": true,
+      "endpoint_independent_nat": true,
+      "stack": "mixed",
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 2334,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "127.0.0.1",
+      "listen_port": 6450
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "1کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 0",
+        "2کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 1",
+        "3کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 2",
+        "4کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 3",
+        "5کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 4",
+        "1کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 5",
+        "2کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 6",
+        "3کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 7",
+        "1کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 8",
+        "1کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 9",
+        "1کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 10",
+        "6کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 11",
+        "7کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 12",
+        "8کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 13",
+        "9کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 14",
+        "10کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 15",
+        "11کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 16",
+        "4کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 17",
+        "5کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 18",
+        "6کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 19",
+        "2کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 20",
+        "2کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 21",
+        "2کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 22",
+        "12کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 23",
+        "13کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 24",
+        "14کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 25",
+        "15کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 26",
+        "16کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 27",
+        "17کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 28",
+        "9کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 29",
+        "8کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 30",
+        "7کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 31",
+        "3کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 32",
+        "3کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 33",
+        "3کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 34",
+        "18کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 35",
+        "19کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 36",
+        "20کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 37",
+        "21کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 38",
+        "22کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 39",
+        "12کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 40",
+        "11کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 41",
+        "10کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 42",
+        "4کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 43",
+        "4کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 44",
+        "4کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 45",
+        "27کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 46",
+        "26کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 47",
+        "24کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 48",
+        "25کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 49",
+        "23کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 50",
+        "14کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 51",
+        "13کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 52",
+        "15کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 53",
+        "5کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 54",
+        "5کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 55",
+        "5کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 56"
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "1کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 0",
+        "2کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 1",
+        "3کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 2",
+        "4کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 3",
+        "5کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 4",
+        "1کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 5",
+        "2کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 6",
+        "3کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 7",
+        "1کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 8",
+        "1کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 9",
+        "1کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 10",
+        "6کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 11",
+        "7کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 12",
+        "8کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 13",
+        "9کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 14",
+        "10کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 15",
+        "11کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 16",
+        "4کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 17",
+        "5کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 18",
+        "6کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 19",
+        "2کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 20",
+        "2کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 21",
+        "2کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 22",
+        "12کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 23",
+        "13کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 24",
+        "14کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 25",
+        "15کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 26",
+        "16کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 27",
+        "17کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 28",
+        "9کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 29",
+        "8کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 30",
+        "7کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 31",
+        "3کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 32",
+        "3کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 33",
+        "3کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 34",
+        "18کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 35",
+        "19کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 36",
+        "20کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 37",
+        "21کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 38",
+        "22کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 39",
+        "12کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 40",
+        "11کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 41",
+        "10کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 42",
+        "4کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 43",
+        "4کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 44",
+        "4کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 45",
+        "27کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 46",
+        "26کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 47",
+        "24کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 48",
+        "25کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 49",
+        "23کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 50",
+        "14کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 51",
+        "13کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 52",
+        "15کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 53",
+        "5کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 54",
+        "5کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 55",
+        "5کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 56"
+      ],
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
+      "interval": "10m0s",
+      "idle_timeout": "1h40m0s"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "1کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 0",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 1",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 2",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 3",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 4",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "1کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 5",
+      "server": "ciqiyuanjiuyubamg01zl.ciyuan78.help",
+      "server_port": 18520,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubamg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 6",
+      "server": "ciqiyuanjiuyubamg02zl.ciyuan78.help",
+      "server_port": 20496,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubamg02zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 7",
+      "server": "ciqiyuanjiuyubaxg02zl.ciyuan78.help",
+      "server_port": 23567,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg02zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "1کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 8",
+      "server": "ciqiyuanjiuyubarb01zl.ciyuan78.help",
+      "server_port": 15679,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubarb01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "1کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 9",
+      "server": "ciqiyuanjiuyubaels01zl.ciyuan78.help",
+      "server_port": 13084,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaels01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "1کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 10",
+      "server": "ciqiyuanjiuyubajnd01zl.ciyuan78.help",
+      "server_port": 39397,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "1a014059-950a-4cdc-8c31-c9770e15bfa2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubajnd01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "6کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 11",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "7کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 12",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "8کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 13",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "9کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 14",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "10کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 15",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "11کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 16",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 17",
+      "server": "ciqiyuanjiuyubamg01zl.ciyuan78.help",
+      "server_port": 18520,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubamg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 18",
+      "server": "ciqiyuanjiuyubamg02zl.ciyuan78.help",
+      "server_port": 20496,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubamg02zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "6کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 19",
+      "server": "ciqiyuanjiuyubaxg02zl.ciyuan78.help",
+      "server_port": 23567,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg02zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 20",
+      "server": "ciqiyuanjiuyubarb01zl.ciyuan78.help",
+      "server_port": 15679,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubarb01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 21",
+      "server": "ciqiyuanjiuyubaels01zl.ciyuan78.help",
+      "server_port": 13084,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaels01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 22",
+      "server": "ciqiyuanjiuyubajnd01zl.ciyuan78.help",
+      "server_port": 39397,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "51f73318-7656-4ad8-9dc1-7e544ffb6d16",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubajnd01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "12کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 23",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "13کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 24",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "14کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 25",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "15کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 26",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "16کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 27",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "17کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 28",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "9کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 29",
+      "server": "ciqiyuanjiuyubamg01zl.ciyuan78.help",
+      "server_port": 18520,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubamg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "8کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 30",
+      "server": "ciqiyuanjiuyubamg02zl.ciyuan78.help",
+      "server_port": 20496,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubamg02zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "7کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 31",
+      "server": "ciqiyuanjiuyubaxg02zl.ciyuan78.help",
+      "server_port": 23567,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg02zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 32",
+      "server": "ciqiyuanjiuyubarb01zl.ciyuan78.help",
+      "server_port": 15679,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubarb01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 33",
+      "server": "ciqiyuanjiuyubaels01zl.ciyuan78.help",
+      "server_port": 13084,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaels01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 34",
+      "server": "ciqiyuanjiuyubajnd01zl.ciyuan78.help",
+      "server_port": 39397,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "e888ae4b-c4f0-4588-9148-8fd13f93a494",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubajnd01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "18کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 35",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "19کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 36",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "20کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 37",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "21کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 38",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "22کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 39",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "12کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 40",
+      "server": "ciqiyuanjiuyubamg01zl.ciyuan78.help",
+      "server_port": 18520,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubamg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "11کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 41",
+      "server": "ciqiyuanjiuyubamg02zl.ciyuan78.help",
+      "server_port": 20496,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubamg02zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "10کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 42",
+      "server": "ciqiyuanjiuyubaxg02zl.ciyuan78.help",
+      "server_port": 23567,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg02zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 43",
+      "server": "ciqiyuanjiuyubarb01zl.ciyuan78.help",
+      "server_port": 15679,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubarb01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 44",
+      "server": "ciqiyuanjiuyubaels01zl.ciyuan78.help",
+      "server_port": 13084,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaels01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 45",
+      "server": "ciqiyuanjiuyubajnd01zl.ciyuan78.help",
+      "server_port": 39397,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "52f8d8f7-6638-4c91-8811-911d1ef00487",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubajnd01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "27کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 46",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "26کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 47",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "24کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 48",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "25کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 49",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "23کانال تلگرامی ما HIDDIFY_plas🇭🇰@ § 50",
+      "server": "ciqiyuanjiuyubaxg01zl.ciyuan78.help",
+      "server_port": 23651,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "14کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 51",
+      "server": "ciqiyuanjiuyubamg02zl.ciyuan78.help",
+      "server_port": 20496,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubamg02zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "13کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 52",
+      "server": "ciqiyuanjiuyubamg01zl.ciyuan78.help",
+      "server_port": 18520,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubamg01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "15کانال تلگرامی ما HIDDIFY_plas🇺🇸@ § 53",
+      "server": "ciqiyuanjiuyubaxg02zl.ciyuan78.help",
+      "server_port": 23567,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaxg02zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5کانال تلگرامی ما HIDDIFY_plas🇯🇵@ § 54",
+      "server": "ciqiyuanjiuyubarb01zl.ciyuan78.help",
+      "server_port": 15679,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubarb01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5کانال تلگرامی ما HIDDIFY_plas🇷🇺@ § 55",
+      "server": "ciqiyuanjiuyubaels01zl.ciyuan78.help",
+      "server_port": 13084,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubaels01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5کانال تلگرامی ما HIDDIFY_plas🇨🇦@ § 56",
+      "server": "ciqiyuanjiuyubajnd01zl.ciyuan78.help",
+      "server_port": 39397,
+      "obfs": {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "0131d51c-c2cf-486f-9930-50bc96958925",
+      "tls": {
+        "enabled": true,
+        "server_name": "ciqiyuanjiuyubajnd01zl.cyfb798.mom",
+        "insecure": true
+      }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "1-500",
+        "sleep": "0-500"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "rule_set": [
+          "geoip-ir",
+          "geosite-ir"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "select"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geoip-ir",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geoip-ir.srs",
+        "update_interval": "120h0m0s"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-ir",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geosite-ir.srs",
+        "update_interval": "120h0m0s"
+      }
+    ],
+    "final": "select",
+    "auto_detect_interface": true,
+    "override_android_vpn": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "clash.db"
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:6756",
+      "secret": "AoPIbhwXVBz_3YbM"
+    }
+  }
+}
