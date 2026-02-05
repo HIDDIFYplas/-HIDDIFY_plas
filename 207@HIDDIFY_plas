@@ -1,0 +1,2575 @@
+//profile-title: کانال تلگرامی ما*🖤🍭[𝗛𝗜𝗗𝗗𝗜𝗙𝗬_𝗽𝗹𝗮𝘀]🍭🖤*برای کانفیگ های بیشتر جوین شو
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=124000000000000; expire=1761000000000
+
+{
+  "log": {
+    "level": "warn",
+    "output": "box.log",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "address": "1.1.1.1",
+        "address_resolver": "dns-direct"
+      },
+      {
+        "tag": "dns-trick-direct",
+        "address": "https://sky.rethinkdns.com/",
+        "detour": "direct-fragment"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "1.1.1.1",
+        "address_resolver": "dns-local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-local",
+        "address": "local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "2026.01.1.kr.aimirror.top",
+          "ping.smartpanel.com.tr",
+          "xhero.kharabetam.de",
+          "api1.uploadsho.com",
+          "th.xiongchumo.shop",
+          "vip1.kaixincloud.top",
+          "da78346a-t9mv40-tart0c-g3b3.hkt.gotochinatown.net",
+          "jp.xiongchumo.shop",
+          "icook.hk",
+          "vip3.kaixincloud.top",
+          "vip2.kaixincloud.top",
+          "dzgz.tcity8.monster",
+          "jry.izenny.com",
+          "0229d743-t9mv40-tsdg75-tlhh.hkt.gotochinatown.net",
+          "3550c067-t9mv40-trftb1-1psmw.hkt.gotochinatown.net",
+          "jzgz.tcity8.monster",
+          "node-de-1.v2sv.top",
+          "e9a95584-t9mv40-tazlv3-11p9g.hkt.gotochinatown.net",
+          "mofacpdd.til69.com",
+          "2026.01.2.kr.aimirror.top",
+          "e3c7f60e-t8pj40-t9b2j8-11p9g.hkt.gotochinatown.net",
+          "icook.tw",
+          "bestcf.030101.xyz",
+          "hkt.gotochinatown.net",
+          "us.xiongchumo.shop",
+          "cf.asdasdqasd.ir",
+          "1808992d-t9mv40-tcmken-19les.hkt.gotochinatown.net",
+          "28561085-t8wxs0-ta00rd-1o8ak.hkt.gotochinatown.net",
+          "2026.01.1.hk.aimirror.top",
+          "2026.01.2.jp.aimirror.top",
+          "freea.glyphara.com",
+          "mbqg940.26i6c42.rkzn8ni.vm331.cn",
+          "slur.izenny.com",
+          "blog.811520.xyz",
+          "usa.novaads.shop"
+        ],
+        "server": "dns-direct"
+      },
+      {
+        "domain": "cp.cloudflare.com",
+        "server": "dns-remote",
+        "rewrite_ttl": 3000
+      }
+    ],
+    "final": "dns-remote",
+    "static_ips": {
+      "sky.rethinkdns.com": [
+        "194.50.216.61",
+        "104.17.148.22",
+        "104.17.147.22",
+        "104.18.1.48",
+        "104.18.0.48",
+        "2606:4700::6812:130",
+        "2606:4700::6812:30"
+      ]
+    },
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "mtu": 9000,
+      "inet4_address": "172.19.0.1/28",
+      "auto_route": true,
+      "strict_route": true,
+      "endpoint_independent_nat": true,
+      "stack": "mixed",
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 2334,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "127.0.0.1",
+      "listen_port": 6450
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "@HIDDIFY_plas - 1",
+        "@HIDDIFY_plas - 2",
+        "@HIDDIFY_plas - 3",
+        "@HIDDIFY_plas - 4",
+        "@HIDDIFY_plas - 5",
+        "@HIDDIFY_plas - 6",
+        "@HIDDIFY_plas - 7",
+        "@HIDDIFY_plas - 8",
+        "@HIDDIFY_plas - 9",
+        "@HIDDIFY_plas - 10",
+        "@HIDDIFY_plas - 11",
+        "@HIDDIFY_plas - 12",
+        "@HIDDIFY_plas - 13",
+        "@HIDDIFY_plas - 14",
+        "@HIDDIFY_plas - 15",
+        "@HIDDIFY_plas - 16",
+        "@HIDDIFY_plas - 17",
+        "@HIDDIFY_plas - 18",
+        "@HIDDIFY_plas - 19",
+        "@HIDDIFY_plas - 20",
+        "@HIDDIFY_plas - 21",
+        "@HIDDIFY_plas - 22",
+        "@HIDDIFY_plas - 23",
+        "@HIDDIFY_plas - 24",
+        "@HIDDIFY_plas - 25",
+        "@HIDDIFY_plas - 26",
+        "@HIDDIFY_plas - 27",
+        "@HIDDIFY_plas - 28",
+        "@HIDDIFY_plas - 29",
+        "@HIDDIFY_plas - 30",
+        "@HIDDIFY_plas - 31",
+        "@HIDDIFY_plas - 32",
+        "@HIDDIFY_plas - 33",
+        "@HIDDIFY_plas - 34",
+        "@HIDDIFY_plas - 35",
+        "@HIDDIFY_plas - 36",
+        "@HIDDIFY_plas - 37",
+        "@HIDDIFY_plas - 38",
+        "@HIDDIFY_plas - 39",
+        "@HIDDIFY_plas - 40",
+        "@HIDDIFY_plas - 41",
+        "@HIDDIFY_plas - 42",
+        "@HIDDIFY_plas - 43",
+        "@HIDDIFY_plas - 44",
+        "@HIDDIFY_plas - 45",
+        "@HIDDIFY_plas - 46",
+        "@HIDDIFY_plas - 47",
+        "@HIDDIFY_plas - 48",
+        "@HIDDIFY_plas - 49",
+        "@HIDDIFY_plas - 50",
+        "@HIDDIFY_plas - 51",
+        "@HIDDIFY_plas - 52",
+        "@HIDDIFY_plas - 53",
+        "@HIDDIFY_plas - 54",
+        "@HIDDIFY_plas - 55",
+        "@HIDDIFY_plas - 56",
+        "@HIDDIFY_plas - 57",
+        "@HIDDIFY_plas - 58",
+        "@HIDDIFY_plas - 59",
+        "@HIDDIFY_plas - 60",
+        "@HIDDIFY_plas - 61",
+        "@HIDDIFY_plas - 62",
+        "@HIDDIFY_plas - 63",
+        "@HIDDIFY_plas - 64",
+        "@HIDDIFY_plas - 65",
+        "@HIDDIFY_plas - 66",
+        "@HIDDIFY_plas - 67",
+        "@HIDDIFY_plas - 68",
+        "@HIDDIFY_plas - 69",
+        "@HIDDIFY_plas - 70",
+        "@HIDDIFY_plas - 71",
+        "@HIDDIFY_plas - 72",
+        "@HIDDIFY_plas - 73",
+        "@HIDDIFY_plas - 74",
+        "@HIDDIFY_plas - 75",
+        "@HIDDIFY_plas - 76",
+        "@HIDDIFY_plas - 77",
+        "@HIDDIFY_plas - 78",
+        "@HIDDIFY_plas - 79",
+        "@HIDDIFY_plas - 80",
+        "@HIDDIFY_plas - 81",
+        "@HIDDIFY_plas - 82",
+        "@HIDDIFY_plas - 83",
+        "@HIDDIFY_plas - 84",
+        "@HIDDIFY_plas - 85",
+        "@HIDDIFY_plas - 86",
+        "@HIDDIFY_plas - 87",
+        "@HIDDIFY_plas - 88",
+        "@HIDDIFY_plas - 89",
+        "@HIDDIFY_plas - 90",
+        "@HIDDIFY_plas - 91",
+        "@HIDDIFY_plas - 92",
+        "@HIDDIFY_plas - 93",
+        "@HIDDIFY_plas - 94",
+        "@HIDDIFY_plas - 95",
+        "@HIDDIFY_plas - 96",
+        "@HIDDIFY_plas - 97",
+        "@HIDDIFY_plas - 98",
+        "@HIDDIFY_plas - 99",
+        "@HIDDIFY_plas - 100",
+        "@HIDDIFY_plas - 101",
+        "@HIDDIFY_plas - 102",
+        "@HIDDIFY_plas - 103",
+        "@HIDDIFY_plas - 104",
+        "@HIDDIFY_plas - 105",
+        "@HIDDIFY_plas - 106",
+        "@HIDDIFY_plas - 107",
+        "@HIDDIFY_plas - 108",
+        "@HIDDIFY_plas - 109",
+        "@HIDDIFY_plas - 110",
+        "@HIDDIFY_plas - 111",
+        "@HIDDIFY_plas - 112",
+        "@HIDDIFY_plas - 113",
+        "@HIDDIFY_plas - 114",
+        "@HIDDIFY_plas - 115",
+        "@HIDDIFY_plas - 116",
+        "@HIDDIFY_plas - 117",
+        "@HIDDIFY_plas - 118",
+        "@HIDDIFY_plas - 119",
+        "@HIDDIFY_plas - 120",
+        "@HIDDIFY_plas - 121",
+        "@HIDDIFY_plas - 122",
+        "@HIDDIFY_plas - 123",
+        "@HIDDIFY_plas - 124",
+        "@HIDDIFY_plas - 125",
+        "@HIDDIFY_plas - 126",
+        "@HIDDIFY_plas - 127",
+        "@HIDDIFY_plas - 128",
+        "@HIDDIFY_plas - 129",
+        "@HIDDIFY_plas - 130"
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "@HIDDIFY_plas - 1",
+        "@HIDDIFY_plas - 2",
+        "@HIDDIFY_plas - 3",
+        "@HIDDIFY_plas - 4",
+        "@HIDDIFY_plas - 5",
+        "@HIDDIFY_plas - 6",
+        "@HIDDIFY_plas - 7",
+        "@HIDDIFY_plas - 8",
+        "@HIDDIFY_plas - 9",
+        "@HIDDIFY_plas - 10",
+        "@HIDDIFY_plas - 11",
+        "@HIDDIFY_plas - 12",
+        "@HIDDIFY_plas - 13",
+        "@HIDDIFY_plas - 14",
+        "@HIDDIFY_plas - 15",
+        "@HIDDIFY_plas - 16",
+        "@HIDDIFY_plas - 17",
+        "@HIDDIFY_plas - 18",
+        "@HIDDIFY_plas - 19",
+        "@HIDDIFY_plas - 20",
+        "@HIDDIFY_plas - 21",
+        "@HIDDIFY_plas - 22",
+        "@HIDDIFY_plas - 23",
+        "@HIDDIFY_plas - 24",
+        "@HIDDIFY_plas - 25",
+        "@HIDDIFY_plas - 26",
+        "@HIDDIFY_plas - 27",
+        "@HIDDIFY_plas - 28",
+        "@HIDDIFY_plas - 29",
+        "@HIDDIFY_plas - 30",
+        "@HIDDIFY_plas - 31",
+        "@HIDDIFY_plas - 32",
+        "@HIDDIFY_plas - 33",
+        "@HIDDIFY_plas - 34",
+        "@HIDDIFY_plas - 35",
+        "@HIDDIFY_plas - 36",
+        "@HIDDIFY_plas - 37",
+        "@HIDDIFY_plas - 38",
+        "@HIDDIFY_plas - 39",
+        "@HIDDIFY_plas - 40",
+        "@HIDDIFY_plas - 41",
+        "@HIDDIFY_plas - 42",
+        "@HIDDIFY_plas - 43",
+        "@HIDDIFY_plas - 44",
+        "@HIDDIFY_plas - 45",
+        "@HIDDIFY_plas - 46",
+        "@HIDDIFY_plas - 47",
+        "@HIDDIFY_plas - 48",
+        "@HIDDIFY_plas - 49",
+        "@HIDDIFY_plas - 50",
+        "@HIDDIFY_plas - 51",
+        "@HIDDIFY_plas - 52",
+        "@HIDDIFY_plas - 53",
+        "@HIDDIFY_plas - 54",
+        "@HIDDIFY_plas - 55",
+        "@HIDDIFY_plas - 56",
+        "@HIDDIFY_plas - 57",
+        "@HIDDIFY_plas - 58",
+        "@HIDDIFY_plas - 59",
+        "@HIDDIFY_plas - 60",
+        "@HIDDIFY_plas - 61",
+        "@HIDDIFY_plas - 62",
+        "@HIDDIFY_plas - 63",
+        "@HIDDIFY_plas - 64",
+        "@HIDDIFY_plas - 65",
+        "@HIDDIFY_plas - 66",
+        "@HIDDIFY_plas - 67",
+        "@HIDDIFY_plas - 68",
+        "@HIDDIFY_plas - 69",
+        "@HIDDIFY_plas - 70",
+        "@HIDDIFY_plas - 71",
+        "@HIDDIFY_plas - 72",
+        "@HIDDIFY_plas - 73",
+        "@HIDDIFY_plas - 74",
+        "@HIDDIFY_plas - 75",
+        "@HIDDIFY_plas - 76",
+        "@HIDDIFY_plas - 77",
+        "@HIDDIFY_plas - 78",
+        "@HIDDIFY_plas - 79",
+        "@HIDDIFY_plas - 80",
+        "@HIDDIFY_plas - 81",
+        "@HIDDIFY_plas - 82",
+        "@HIDDIFY_plas - 83",
+        "@HIDDIFY_plas - 84",
+        "@HIDDIFY_plas - 85",
+        "@HIDDIFY_plas - 86",
+        "@HIDDIFY_plas - 87",
+        "@HIDDIFY_plas - 88",
+        "@HIDDIFY_plas - 89",
+        "@HIDDIFY_plas - 90",
+        "@HIDDIFY_plas - 91",
+        "@HIDDIFY_plas - 92",
+        "@HIDDIFY_plas - 93",
+        "@HIDDIFY_plas - 94",
+        "@HIDDIFY_plas - 95",
+        "@HIDDIFY_plas - 96",
+        "@HIDDIFY_plas - 97",
+        "@HIDDIFY_plas - 98",
+        "@HIDDIFY_plas - 99",
+        "@HIDDIFY_plas - 100",
+        "@HIDDIFY_plas - 101",
+        "@HIDDIFY_plas - 102",
+        "@HIDDIFY_plas - 103",
+        "@HIDDIFY_plas - 104",
+        "@HIDDIFY_plas - 105",
+        "@HIDDIFY_plas - 106",
+        "@HIDDIFY_plas - 107",
+        "@HIDDIFY_plas - 108",
+        "@HIDDIFY_plas - 109",
+        "@HIDDIFY_plas - 110",
+        "@HIDDIFY_plas - 111",
+        "@HIDDIFY_plas - 112",
+        "@HIDDIFY_plas - 113",
+        "@HIDDIFY_plas - 114",
+        "@HIDDIFY_plas - 115",
+        "@HIDDIFY_plas - 116",
+        "@HIDDIFY_plas - 117",
+        "@HIDDIFY_plas - 118",
+        "@HIDDIFY_plas - 119",
+        "@HIDDIFY_plas - 120",
+        "@HIDDIFY_plas - 121",
+        "@HIDDIFY_plas - 122",
+        "@HIDDIFY_plas - 123",
+        "@HIDDIFY_plas - 124",
+        "@HIDDIFY_plas - 125",
+        "@HIDDIFY_plas - 126",
+        "@HIDDIFY_plas - 127",
+        "@HIDDIFY_plas - 128",
+        "@HIDDIFY_plas - 129",
+        "@HIDDIFY_plas - 130"
+      ],
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
+      "interval": "10m0s",
+      "idle_timeout": "1h40m0s"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 1",
+      "server": "9.9.9.9",
+      "server_port": 54321,
+      "method": "aes-256-cfb",
+      "password": "febf501b-e19d-4451-8071-aa6144bb8825"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 2",
+      "server": "icook.hk",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 3",
+      "server": "3550c067-t9mv40-trftb1-1psmw.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "42bb6d36-97c7-11ee-be7f-f23c9164ca5d",
+      "security": "auto",
+      "alter_id": 2,
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "broadcastlv.chat.bilibili.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 4",
+      "server": "103.186.155.75",
+      "server_port": 38388,
+      "method": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 5",
+      "server": "8.39.125.179",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas - 6",
+      "server": "th.xiongchumo.shop",
+      "server_port": 21605,
+      "password": "8d4ed534-77af-490d-a4d1-9c72087b84b7",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 7",
+      "server": "icook.tw",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 8",
+      "server": "104.18.185.26",
+      "server_port": 443,
+      "uuid": "3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97",
+      "tls": {
+        "enabled": true,
+        "server_name": "l.ayovo.netlib.re",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "l.ayovo.netlib.re"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas - 9",
+      "server": "th.xiongchumo.shop",
+      "server_port": 21820,
+      "password": "de4e28c0-801e-4cde-9120-5d88a05fc272",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 10",
+      "server": "64.188.91.193",
+      "server_port": 2053,
+      "uuid": "b64ff004-ec17-4cbb-9f32-c4eb7f4660e8",
+      "tls": {
+        "enabled": true,
+        "server_name": "eh.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "isw9UCSqdj1pzN3KpqY634QY4eLCYmDrMgvI1XsQimA"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 11",
+      "server": "154.218.15.198",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 12",
+      "server": "198.41.208.70",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 13",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "6780fcd2-9351-4b2a-bb56-420d1828217d",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 14",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35220,
+      "uuid": "0fe86dd8-c73a-4860-9ade-877e0a1c6ebf",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 15",
+      "server": "jzgz.tcity8.monster",
+      "server_port": 22003,
+      "uuid": "0fe86dd8-c73a-4860-9ade-877e0a1c6ebf",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 16",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "b2c5f087-1556-46f6-904d-a6efb7872034",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 17",
+      "server": "freea.glyphara.com",
+      "server_port": 30703,
+      "uuid": "19d9fad9-736f-407b-8749-741c0a63d4db",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "mensura.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI",
+          "short_id": "845532fa"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 18",
+      "server": "162.159.44.228",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 19",
+      "server": "bestcf.030101.xyz",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 20",
+      "server": "103.186.155.78",
+      "server_port": 38388,
+      "method": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 21",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "57cff22e-e5dd-4e87-837d-662d2db60b64",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 22",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "1091e4f4-c4e3-4411-b189-5617b6fd2480",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 23",
+      "server": "104.16.103.22",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 24",
+      "server": "jzgz.tcity8.monster",
+      "server_port": 22226,
+      "uuid": "784f1582-3549-4aa2-a5a8-4b9824f7b0f8",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 25",
+      "server": "mbqg940.26i6c42.rkzn8ni.vm331.cn",
+      "server_port": 10702,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f1e442f1-8abb-4df6-9c6e-ddd114224b3a"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 26",
+      "server": "104.19.118.83",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 27",
+      "server": "36.141.116.172",
+      "server_port": 29527,
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "MDhhMTdjZDI0MjI2ZWRlNg==:MGY0MDExNDQtODJlMS00OA=="
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 28",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "c25c5070-78d3-4ea2-afb2-2e82cb975d05",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 29",
+      "server": "vip1.kaixincloud.top",
+      "server_port": 443,
+      "uuid": "7d9e0e9b-3195-421f-9228-be763906a005",
+      "tls": {
+        "enabled": true,
+        "server_name": "main.shieldpath.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/thisway",
+        "headers": {
+          "Host": "main.shieldpath.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 30",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35222,
+      "uuid": "0fe86dd8-c73a-4860-9ade-877e0a1c6ebf",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 31",
+      "server": "36.141.116.172",
+      "server_port": 32207,
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "NjVhMWE2YmVmNzg4MTcwMA==:MGY0MDExNDQtODJlMS00OA=="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 32",
+      "server": "36.141.116.172",
+      "server_port": 39203,
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "MDhhMTdjZDI0MjI2ZWRlNg==:MGY0MDExNDQtODJlMS00OA=="
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 33",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35208,
+      "uuid": "0fe86dd8-c73a-4860-9ade-877e0a1c6ebf",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 34",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35214,
+      "uuid": "ea761ad5-288f-40a0-913b-d31009e96005",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 35",
+      "server": "103.186.154.11",
+      "server_port": 38388,
+      "method": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 36",
+      "server": "mbqg940.26i6c42.rkzn8ni.vm331.cn",
+      "server_port": 10237,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f1e442f1-8abb-4df6-9c6e-ddd114224b3a"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 37",
+      "server": "freea.glyphara.com",
+      "server_port": 30402,
+      "uuid": "19d9fad9-736f-407b-8749-741c0a63d4db",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew",
+          "short_id": "f5f6e6f4"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 38",
+      "server": "104.21.224.5",
+      "server_port": 443,
+      "uuid": "3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97",
+      "tls": {
+        "enabled": true,
+        "server_name": "l.ayovo.netlib.re",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "l.ayovo.netlib.re"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 39",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35208,
+      "uuid": "6404e21a-3fc5-45ed-91a8-001a5e48362b",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 40",
+      "server": "freea.glyphara.com",
+      "server_port": 30201,
+      "uuid": "19d9fad9-736f-407b-8749-741c0a63d4db",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lol.secure.dyn.riotcdn.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kb5IP7-mBUXwW7zszu-grmOgNEWmqDiCvf1NRfbF3AQ",
+          "short_id": "c1e12817"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 41",
+      "server": "2026.01.1.kr.aimirror.top",
+      "server_port": 443,
+      "uuid": "eeaa07ca-2693-42f8-e544-a16521d8e922",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SXqEq6ZholDwAcZRjV-E4IjCP_qUNeDcnzroQ4lwoA8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 42",
+      "server": "hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "f860f2da-5035-11ed-bb74-f23c9164ca5d",
+      "security": "auto",
+      "alter_id": 2,
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hkt.gotochinatown.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 43",
+      "server": "jzgz.tcity8.monster",
+      "server_port": 22226,
+      "uuid": "6404e21a-3fc5-45ed-91a8-001a5e48362b",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 44",
+      "server": "ping.smartpanel.com.tr",
+      "server_port": 2083,
+      "uuid": "484cc45b-f5bb-44dd-93c8-f75a1b571739",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl-shop.rocketset.fun",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shop",
+        "headers": {
+          "Host": "nl-shop.rocketset.fun"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 45",
+      "server": "162.159.252.202",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 46",
+      "server": "xhero.kharabetam.de",
+      "server_port": 2053,
+      "uuid": "33a57acf-163f-4cdd-8b23-cc52a58f2362",
+      "tls": {
+        "enabled": true,
+        "server_name": "mrx.xher0.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/IfUknowThenUKnow",
+        "headers": {
+          "Host": "mrx.xher0.de"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 47",
+      "server": "vip3.kaixincloud.top",
+      "server_port": 443,
+      "uuid": "e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "vip3.kaixincloud.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/GiggityGiggity",
+        "headers": {
+          "Host": "blog.zeitoonapp.shop"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 48",
+      "server": "152.53.33.43",
+      "server_port": 443,
+      "uuid": "057b649c-54b1-4f68-86b1-90381637a2cf",
+      "transport": {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas - 49",
+      "server": "us.xiongchumo.shop",
+      "server_port": 21370,
+      "password": "8d4ed534-77af-490d-a4d1-9c72087b84b7",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 50",
+      "server": "freea.glyphara.com",
+      "server_port": 30701,
+      "uuid": "6abf7088-5519-4772-ad41-06ba1a535d18",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cgGav3P_PeaM4grdSECGj4Tt9IsCmSqhGo_EJ0_KdWY",
+          "short_id": "e62db878"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 51",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "e1a7e7fe-b863-4ccf-a6e0-2736c5af2374",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 52",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "334c3ce6-c92a-4f6f-bced-b28259b0bd30",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 53",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "07e52cba-3569-4b63-8bcb-92dc4587c489",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas - 54",
+      "server": "us.xiongchumo.shop",
+      "server_port": 21255,
+      "password": "de4e28c0-801e-4cde-9120-5d88a05fc272",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 55",
+      "server": "slur.izenny.com",
+      "server_port": 30348,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a3627ddc-4da5-47d0-aa9c-d391f4eb5395"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas - 56",
+      "server": "us.xiongchumo.shop",
+      "server_port": 21757,
+      "password": "d67831a7-0bd9-43b5-a00a-2e88d2c33116",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 57",
+      "server": "blog.811520.xyz",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 58",
+      "server": "103.186.154.59",
+      "server_port": 38388,
+      "method": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 59",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35214,
+      "uuid": "784f1582-3549-4aa2-a5a8-4b9824f7b0f8",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 60",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35220,
+      "uuid": "784f1582-3549-4aa2-a5a8-4b9824f7b0f8",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 61",
+      "server": "192.9.142.185",
+      "server_port": 443,
+      "uuid": "991b8611-ca06-4177-99fa-1084f2d93b4c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.mi.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1utdJ0YWFpPYbH-bfIkfGgSebhByfttArVtO9iSlwFM",
+          "short_id": "30194285"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 62",
+      "server": "jzgz.tcity8.monster",
+      "server_port": 22238,
+      "uuid": "6404e21a-3fc5-45ed-91a8-001a5e48362b",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 63",
+      "server": "103.186.154.154",
+      "server_port": 38388,
+      "method": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 64",
+      "server": "node-de-1.v2sv.top",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "nodes-b211f28a"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 65",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "174711b1-013d-4ec6-9f69-485ff008d50f",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 66",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "cbbfd28f-7c3f-48b4-b33c-a78cd362f5e5",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 67",
+      "server": "cf.asdasdqasd.ir",
+      "server_port": 443,
+      "uuid": "dc7cf857-02af-425e-b8f6-2915ba15accf",
+      "tls": {
+        "enabled": true,
+        "server_name": "d3434ssffrrre.khodroshenasi.store",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nikeren",
+        "headers": {
+          "Host": "d3434ssffrrre.khodroshenasi.store"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 68",
+      "server": "jzgz.tcity8.monster",
+      "server_port": 22238,
+      "uuid": "0fe86dd8-c73a-4860-9ade-877e0a1c6ebf",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 69",
+      "server": "172.64.52.201",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 70",
+      "server": "hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "aed1cc24-351d-11ef-ba52-f23c9164ca5d",
+      "security": "auto",
+      "alter_id": 2,
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hkt.gotochinatown.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 71",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "f5ad8f14-b5d9-4f51-8e01-c5e5bb521588",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 72",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "d7a3b63b-fb0d-42ee-b730-3a5489c80a1b",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 73",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35222,
+      "uuid": "ea761ad5-288f-40a0-913b-d31009e96005",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 74",
+      "server": "jzgz.tcity8.monster",
+      "server_port": 22238,
+      "uuid": "784f1582-3549-4aa2-a5a8-4b9824f7b0f8",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 75",
+      "server": "jzgz.tcity8.monster",
+      "server_port": 22224,
+      "uuid": "6404e21a-3fc5-45ed-91a8-001a5e48362b",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 76",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "9e055819-fa40-4a6f-9007-66a5a099b727",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 77",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "2701b9c5-0036-40b5-b53c-da305661a5e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 78",
+      "server": "104.19.41.232",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 79",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35220,
+      "uuid": "ea761ad5-288f-40a0-913b-d31009e96005",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 80",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35212,
+      "uuid": "784f1582-3549-4aa2-a5a8-4b9824f7b0f8",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 81",
+      "server": "204.10.194.78",
+      "server_port": 443,
+      "uuid": "991b8611-ca06-4177-99fa-1084f2d93b4c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "iosapps.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9xhRQRC70QdPgNlgB1rLvT382AiRlFi_cEkCAK2BcjI",
+          "short_id": "b5e2e30a"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 82",
+      "server": "36.141.116.172",
+      "server_port": 12984,
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "MDhhMTdjZDI0MjI2ZWRlNg==:MGY0MDExNDQtODJlMS00OA=="
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 83",
+      "server": "da78346a-t9mv40-tart0c-g3b3.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "9ad05870-d8c5-11ef-9f1c-f23c913c8d2b",
+      "security": "auto",
+      "alter_id": 2,
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "broadcastlv.chat.bilibili.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 84",
+      "server": "slur.izenny.com",
+      "server_port": 57577,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a3627ddc-4da5-47d0-aa9c-d391f4eb5395"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 85",
+      "server": "162.159.45.232",
+      "server_port": 443,
+      "uuid": "3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97",
+      "tls": {
+        "enabled": true,
+        "server_name": "l.ayovo.netlib.re",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "l.ayovo.netlib.re"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 86",
+      "server": "1808992d-t9mv40-tcmken-19les.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "d095ecc6-7b69-11eb-b77b-f23c913c8d2b",
+      "security": "auto",
+      "alter_id": 2,
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "broadcastlv.chat.bilibili.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 87",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35223,
+      "uuid": "6404e21a-3fc5-45ed-91a8-001a5e48362b",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 88",
+      "server": "usa.novaads.shop",
+      "server_port": 42537,
+      "uuid": "09decb26-4cc9-48f9-8f61-ff9d258afe89",
+      "transport": {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 89",
+      "server": "162.159.38.151",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 90",
+      "server": "193.123.187.39",
+      "server_port": 443,
+      "uuid": "991b8611-ca06-4177-99fa-1084f2d93b4c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "buylite.music.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "i7DUE1GbZSybS9hVNoLXkNBUOhy_428gM8v5fKfjS0Q",
+          "short_id": "375cd304"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 91",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "505ef73e-daa5-4ff7-ac66-91770cb31dd4",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 92",
+      "server": "e9a95584-t9mv40-tazlv3-11p9g.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "384d1b42-655f-11ed-a8bf-f23c91cfbbc9",
+      "security": "auto",
+      "alter_id": 2,
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "broadcastlv.chat.bilibili.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 93",
+      "server": "162.159.153.160",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 94",
+      "server": "103.186.155.31",
+      "server_port": 38388,
+      "method": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 95",
+      "server": "jry.izenny.com",
+      "server_port": 47831,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f6285cf2-0526-4fb5-9fdf-6691513dc9cf"
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 96",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35223,
+      "uuid": "ea761ad5-288f-40a0-913b-d31009e96005",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas - 97",
+      "server": "th.xiongchumo.shop",
+      "server_port": 21065,
+      "password": "d67831a7-0bd9-43b5-a00a-2e88d2c33116",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 98",
+      "server": "jzgz.tcity8.monster",
+      "server_port": 22002,
+      "uuid": "0fe86dd8-c73a-4860-9ade-877e0a1c6ebf",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 99",
+      "server": "103.186.154.166",
+      "server_port": 38388,
+      "method": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 100",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "3fed5490-864b-487c-9842-3a526297713c",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 101",
+      "server": "28561085-t8wxs0-ta00rd-1o8ak.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "8bb68d04-6973-11ee-b518-f23c9164ca5d",
+      "security": "auto",
+      "alter_id": 2,
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "28561085-t8wxs0-ta00rd-1o8ak.hkt.gotochinatown.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 102",
+      "server": "36.141.116.172",
+      "server_port": 12980,
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "MDhhMTdjZDI0MjI2ZWRlNg==:MGY0MDExNDQtODJlMS00OA=="
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 103",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "a7a5a5ab-4faa-4091-98b2-1f219e8a4984",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas - 104",
+      "server": "th.xiongchumo.shop",
+      "server_port": 21850,
+      "password": "8d4ed534-77af-490d-a4d1-9c72087b84b7",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 105",
+      "server": "api1.uploadsho.com",
+      "server_port": 443,
+      "uuid": "91d906df-9e60-4186-945e-4ad1ac331e3a",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl.uploadsho.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/upload/",
+        "headers": {
+          "Host": "nl.uploadsho.com"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 106",
+      "server": "2026.01.1.hk.aimirror.top",
+      "server_port": 443,
+      "uuid": "eeaa07ca-2693-42f8-e544-a16521d8e922",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KwIjeh5fgXZEOlg68dpzFTNAcbdqI0WUacwlcOgGrCU"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 107",
+      "server": "146.103.98.100",
+      "server_port": 8443,
+      "uuid": "9ed1ff3b-dfe6-478f-95d4-0dcdc512c1bf",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pimg.mycdn.me",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "evD8WalRSfQZ19cuSjbszCdh6IhaHX1_a_GZqJ51GAs"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 108",
+      "server": "vip3.kaixincloud.top",
+      "server_port": 8443,
+      "uuid": "96863176-edbb-47dd-9b56-1d4582a6f9c0",
+      "tls": {
+        "enabled": true,
+        "server_name": "ir.irannet.shop",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hshsHhdsgj54645sgsSdc",
+        "headers": {
+          "Host": "ir.irannet.shop"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 109",
+      "server": "vip2.kaixincloud.top",
+      "server_port": 2096,
+      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ca.adobe-connect.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ca.adobe-connect.top"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 110",
+      "server": "jzgz.tcity8.monster",
+      "server_port": 22230,
+      "uuid": "784f1582-3549-4aa2-a5a8-4b9824f7b0f8",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 111",
+      "server": "103.186.154.12",
+      "server_port": 38388,
+      "method": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 112",
+      "server": "jzgz.tcity8.monster",
+      "server_port": 22224,
+      "uuid": "0fe86dd8-c73a-4860-9ade-877e0a1c6ebf",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 113",
+      "server": "104.26.14.176",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 114",
+      "server": "mofacpdd.til69.com",
+      "server_port": 26921,
+      "method": "chacha20-ietf-poly1305",
+      "password": "5d68d91f-ccc5-4c00-b1f6-0d764937f4f6"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 115",
+      "server": "172.64.144.22",
+      "server_port": 443,
+      "uuid": "15235ce9-4cd2-4483-b6b6-7fc4a3f44735",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.ere.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.ere.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 116",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35212,
+      "uuid": "ea761ad5-288f-40a0-913b-d31009e96005",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 117",
+      "server": "freea.glyphara.com",
+      "server_port": 30301,
+      "uuid": "19d9fad9-736f-407b-8749-741c0a63d4db",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lol.secure.dyn.riotcdn.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM",
+          "short_id": "950cee8a"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 118",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35214,
+      "uuid": "6404e21a-3fc5-45ed-91a8-001a5e48362b",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 119",
+      "server": "103.186.155.115",
+      "server_port": 38388,
+      "method": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@HIDDIFY_plas - 120",
+      "server": "th.xiongchumo.shop",
+      "server_port": 21053,
+      "password": "de4e28c0-801e-4cde-9120-5d88a05fc272",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 121",
+      "server": "0229d743-t9mv40-tsdg75-tlhh.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "bdf3e15e-c64c-11ea-82ef-f23c9164ca5d",
+      "security": "auto",
+      "alter_id": 2,
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "broadcastlv.chat.bilibili.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 122",
+      "server": "freea.glyphara.com",
+      "server_port": 30301,
+      "uuid": "6abf7088-5519-4772-ad41-06ba1a535d18",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lol.secure.dyn.riotcdn.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM",
+          "short_id": "950cee8a"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 123",
+      "server": "2026.01.2.jp.aimirror.top",
+      "server_port": 443,
+      "uuid": "eeaa07ca-2693-42f8-e544-a16521d8e922",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "y94kXYS3LxFQ6n1aNdEZ0-59RQ_KAkHamXXdDYyJXmY"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 124",
+      "server": "136.175.178.165",
+      "server_port": 443,
+      "uuid": "2b06961f-32cf-4785-ae12-0674e2c310a1",
+      "tls": {
+        "enabled": true,
+        "server_name": "navi.bankrate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+          "short_id": "2da72ce6"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 125",
+      "server": "2026.01.2.kr.aimirror.top",
+      "server_port": 443,
+      "uuid": "eeaa07ca-2693-42f8-e544-a16521d8e922",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SXqEq6ZholDwAcZRjV-E4IjCP_qUNeDcnzroQ4lwoA8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 126",
+      "server": "e3c7f60e-t8pj40-t9b2j8-11p9g.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "384d1b42-655f-11ed-a8bf-f23c91cfbbc9",
+      "security": "auto",
+      "alter_id": 2,
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "e3c7f60e-t8pj40-t9b2j8-11p9g.hkt.gotochinatown.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 127",
+      "server": "36.141.116.172",
+      "server_port": 40023,
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "MDhhMTdjZDI0MjI2ZWRlNg==:MGY0MDExNDQtODJlMS00OA=="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "@HIDDIFY_plas - 128",
+      "server": "103.186.155.68",
+      "server_port": 38388,
+      "method": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    },
+    {
+      "type": "vless",
+      "tag": "@HIDDIFY_plas - 129",
+      "server": "vip2.kaixincloud.top",
+      "server_port": 443,
+      "uuid": "c341a4c0-cfda-4ac4-be54-31067e874149",
+      "tls": {
+        "enabled": true,
+        "server_name": "do-tor1.025713.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/announcement",
+        "headers": {
+          "Host": "do-tor1.025713.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@HIDDIFY_plas - 130",
+      "server": "dzgz.tcity8.monster",
+      "server_port": 35208,
+      "uuid": "784f1582-3549-4aa2-a5a8-4b9824f7b0f8",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "1-500",
+        "sleep": "0-500"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "select"
+      }
+    ],
+    "final": "select",
+    "auto_detect_interface": true,
+    "override_android_vpn": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "clash.db"
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:6756",
+      "secret": "-GI3j0cw10t-2L74"
+    }
+  }
+}
